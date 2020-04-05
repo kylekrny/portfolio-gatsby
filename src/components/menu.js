@@ -6,7 +6,7 @@ const Menu = () => (
     <p className='header-text'><a href="">Close</a></p>
     <button id='mode-button'>Dark Mode</button>
     </div>
-    <nav>
+    <nav id='menu-nav'>
     <h6 className='menu-item'><a href="">Home</a></h6>
     <h6 className='menu-item'><a href="">About</a></h6>
     <h6 className='menu-item'><a href="">Experience</a></h6>

@@ -19,6 +19,16 @@ body {
   font-family: manropeBold;
   src: url(../fonts/web/Manrope-Bold.woff2);
 }
+
+@font-face {
+  font-family: manropeExtraBold;
+  src: url(../fonts/web/Manrope-ExtraBold.woff2);
+}
+
+h6 {
+  font-family: manropeExtraBold;
+}
+
 .header-container {
   width: 100%;
   display: flex;
@@ -41,6 +51,7 @@ body {
 #menu {
 float: right;
 width: 50%;
+height: 100%;
 }
 
 #menu-header {
@@ -48,11 +59,22 @@ width: 100%;
 }
 
 .menu-item {
+text-align: center;
+font-size: 30px;
+}
 
+#menu-nav{
+  width: 30%;
+  margin: 0 auto;
 }
 
 #mode-button {
-
+  background-color: transparent;
+  padding: 7px 28px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-family: manropeExtraBold;
+  font-size: 14px;
 }
 
 #nav-link {
