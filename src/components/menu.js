@@ -16,9 +16,9 @@ const Menu = () => (
       <h6 className='menu-item'><a href="">Work</a></h6>
       <h6 className='menu-item'><a href="">Skills</a></h6>
     <div className='social-row'>
-    <FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon' style={{color:"#000000"}} />
-    <FontAwesomeIcon icon={["fab", "github"]} className='social-icon' style={{color:"#000000"}} />
-    <FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} />
+    <a href=""><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon' style={{color:"#000000"}} /></a>
+    <a href=""><FontAwesomeIcon icon={["fab", "github"]} className='social-icon' style={{color:"#000000"}} /></a>
+    <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a>
     </div>
     </nav>
   </div>

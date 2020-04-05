@@ -62,6 +62,11 @@ width: 100%;
 text-align: center;
 font-size: 30px;
 }
+.menu-item:hover {
+color: transparent;
+-webkit-text-stroke: 1px black;
+-webkit-text-fill-color: transparent;
+}
 
 #menu-nav{
   width: 30%;
@@ -83,7 +88,14 @@ font-size: 30px;
   padding-right: 10%;
 }
 
+.social-icon {
+  font-size: 20px;
+  margin: 10px 20px;
+}
 
 .social-row {
-
+margin: auto;
+width: 100%;
+text-align: center;
 }
+
