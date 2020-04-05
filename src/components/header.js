@@ -5,8 +5,8 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header>
     <div id='header-container'>
-      <p className='header-text desktop' id='header-brand'>Web Developer</p>
-      <p className='header-text' id='nav-link'>Menu</p>
+      <p className='header-text desktop' id='header-brand'>Minimalist Web Developer</p>
+      <p className='header-text' id='nav-link'> <a href="">Menu</a></p>
     </div>
   </header>
 )
