@@ -15,6 +15,8 @@ import Header from "./header"
 import "./layout.css"
 library.add(fab)
 
+
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -26,8 +28,12 @@ const Layout = ({ children }) => {
     }
   `)
 
+
+
+
   return (
     <>
+   
       <Menu/>
 
     </>
