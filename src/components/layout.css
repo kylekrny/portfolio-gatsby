@@ -39,10 +39,13 @@ a {
   font-family: manropeLight;
   font-size: 25px;
   line-height: 60px;
+  width: 83.8%;
+  margin: auto;
 }
 
 #about-text-container{
   width: 45%;
+  padding-top: 0;
 }
 
 body {
@@ -69,6 +72,8 @@ body {
   font-size: 18px;
 }
 
+
+
 .container {
   margin: 0 auto;
   width: 70%;
@@ -78,6 +83,40 @@ body {
   width: 100%;
 }
 
+.exp-card {
+  width: 30%;
+  min-width: 30%;
+  margin-bottom: 50px;
+}
+
+.exp-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 140px;
+  margin: 0 auto;
+}
+
+.exp-card-description {
+  width: 70%;
+  margin: auto;
+  font-family: manropeRegular;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 1px;
+}
+
+.exp-card-time {
+  text-align: center;
+  font-size: 30px;
+}
+.exp-card-company {
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 5px
+}
 #exp-title-small{
   font-size: 50px;
   margin-top: 50px;
@@ -88,6 +127,8 @@ body {
   font-size: 200px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
+  margin-left: 0;
 }
 
 @font-face {
@@ -226,6 +267,17 @@ color: transparent;
   float: right;
   text-align: right;
   padding-right: 10%;
+}
+
+#resume-button {
+  background-color: transparent;
+  padding: 7px 28px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-family: manropeExtraBold;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: 75px;
 }
 
 .social-icon {

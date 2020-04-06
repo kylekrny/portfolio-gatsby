@@ -11,9 +11,9 @@ class Experience extends Component {
       {JSONData.Content.map((data, index) => {
         return (
           <div className="exp-card">
-              <h4>{data.Time}</h4>
-              <h6>{data.Head}</h6>
-              <p>{data.Description}</p>
+              <h4 className='exp-card-time'>{data.Time}</h4>
+              <h6 className='exp-card-company'>{data.Head}</h6>
+              <p className='exp-card-description'>{data.Description}</p>
           </div>
         )
       })}
@@ -27,6 +27,9 @@ class Experience extends Component {
           <h5 id='exp-title-large'>Synopsis</h5>
         </div>
           {card}
+      <div className="button-container">
+        <button id='resume-button'>Resume / CV</button>
+      </div>
       </div>
     )
   }
