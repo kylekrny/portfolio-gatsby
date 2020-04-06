@@ -1,5 +1,5 @@
  {
-  "Title": "ExperienceData",
+  "Title": "Content",
   "Content": [
     {
       "Time": "2018 - present",
@@ -30,6 +30,44 @@
       "Time": "2018 - present",
       "Head": "Carbon",
       "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
+    }
+  ],
+  "MyWorkContent": [
+    {
+      "Name": "Jeff Jones",
+      "Date": "November, 2019",
+      "Description": "Filler text for the sake of filler text for right now",
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": [""]
+      }
+    },
+    {
+      "Name": "Jeff Jones",
+      "Date": "November, 2019",
+      "Description": "Filler text for the sake of filler text for right now",
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": [""]
+      }
+    },
+    {
+      "Name": "Jeff Jones",
+      "Date": "November, 2019",
+      "Description": "Filler text for the sake of filler text for right now",
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": [""]
+      }
+    },
+    {
+      "Name": "Jeff Jones",
+      "Date": "November, 2019",
+      "Description": "Filler text for the sake of filler text for right now",
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": [""]
+      }
     }
   ]
 }
