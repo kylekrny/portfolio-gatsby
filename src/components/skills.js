@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Image from "../components/image"
 
 
-class Brief extends Component {
+class Skills extends Component {
 
   render() {
     
@@ -12,4 +12,4 @@ class Brief extends Component {
   }
 };
 
-export default Brief
+export default Skills
