@@ -8,13 +8,28 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    {/* <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div> */}
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
+    <div id="landing">
+    <h1 id='landing-text'>Kyle <br/> Kearney</h1>
+    </div>
+    <div className="container">
+      <div id='brief-container'>
+        <p id="brief">
+        Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. Focused on developing engaging interactive for my clients.
+        </p>
+      </div>
+      <div className='about-container'>
+        <h5 id='about-head'>About Me</h5>
+        <div className="about-body">
+          <div id="about-image-container">
+            <Image/>
+          </div>
+          <div id="about-text-container">
+            <p className="about-paragraph">Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. Focused on developing engaging interactive for my clients. I am a full stack Web Developer. Focused on developing engaging interactive for my clients.</p>
+            <p className="about-paragraph">Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. Focused on developing engaging interactive for my clients. I am a full stack Web Developer. Focused on developing engaging interactive for my clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </Layout>
 )
 

@@ -53,7 +53,7 @@ class Menu extends Component {
       </div>
     )
     return (
-      <div>
+      <div id='head-main-container'>
         {this.state.showHeader ? header : ''}
         {this.state.showMenu ? menu : ''}
       </div>

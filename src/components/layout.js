@@ -11,7 +11,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Menu from './menu'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import Header from "./header"
 import "./layout.css"
 library.add(fab)
 
@@ -33,8 +32,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-   
-      <Menu/>
+
+    <Menu/>
+    <div>
+      {children}
+      </div>
 
     </>
   )
