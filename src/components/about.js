@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Image from "../components/image"
 
 
+
 class About extends Component {
 
   render() {
@@ -11,7 +12,7 @@ class About extends Component {
       <h5 id='about-head'>About Me</h5>
       <div className="about-body">
         <div id="about-image-container">
-          <Image/>
+          <Image filename='IMG_6871.jpeg'/>
         </div>
         <div id="about-text-container">
           <p className="about-paragraph">Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. Focused on developing engaging interactive for my clients. I am a full stack Web Developer. Focused on developing engaging interactive for my clients.</p>

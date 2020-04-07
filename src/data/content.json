@@ -33,41 +33,34 @@
     }
   ],
   "MyWorkContent": [
+
     {
       "Name": "Jeff Jones",
       "Date": "November, 2019",
+      "ProjectURL": "https://google.com",
       "Description": "Filler text for the sake of filler text for right now",
+      "Img": {
+        "File": "jonesLogo-01.png",
+        "Alt": "Description"
+      },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
         "Back-End": [""]
       }
-    },
+    },   
     {
       "Name": "Jeff Jones",
       "Date": "November, 2019",
+      "ProjectURL": "https://google.com",
       "Description": "Filler text for the sake of filler text for right now",
+      "Img": {
+        "File": "jonesLogo-01.png",
+        "Alt": "Description"
+      },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
         "Back-End": [""]
       }
-    },
-    {
-      "Name": "Jeff Jones",
-      "Date": "November, 2019",
-      "Description": "Filler text for the sake of filler text for right now",
-      "Technologies": {
-        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
-        "Back-End": [""]
-      }
-    },
-    {
-      "Name": "Jeff Jones",
-      "Date": "November, 2019",
-      "Description": "Filler text for the sake of filler text for right now",
-      "Technologies": {
-        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
-        "Back-End": [""]
-      }
-    }
+    }   
   ]
 }

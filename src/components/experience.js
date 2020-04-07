@@ -8,7 +8,7 @@ class Experience extends Component {
   render() {
     const card = (
       <div className='exp-card-container'>
-      {JSONData.Content.map((data, index) => {
+      {JSONData.Content.map((data) => {
         return (
           <div className="exp-card">
               <h4 className='exp-card-time'>{data.Time}</h4>
