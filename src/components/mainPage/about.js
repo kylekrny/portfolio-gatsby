@@ -9,10 +9,10 @@ class About extends Component {
     
     return (
       <div id='about'>
-        <div className="about-head" data-sal="fade" data-sal-duration="2000" data-sal-delay="3000" data-sal-easing="ease"   >
+        <div className="about-head">
           <h5 id='about-head'>About Me</h5>
         </div>
-        <div className="about-body" data-sal="fade" data-sal-duration="2000" data-sal-easing="ease">
+        <div className="about-body">
           <div id="about-image-container">
             <Image filename='IMG_6871.jpeg'/>
           </div>
