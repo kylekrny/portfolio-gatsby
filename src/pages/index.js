@@ -1,12 +1,13 @@
 import React from "react"
 // import { Link } from "gatsby"
 
-import About from "../components/about"
-import Brief from "../components/brief"
-import Experience from "../components/experience"
+import About from "../components/mainPage/about"
+import Brief from "../components/mainPage/brief"
+import Experience from "../components/mainPage/experience"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Work from "../components/work"
+import Work from "../components/mainPage/work"
+// import Skills from "../components/skills"
 
 const IndexPage = () => (
   <Layout>

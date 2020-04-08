@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import JSONData from '../data/content.json'
+import JSONData from '../../data/content.json'
 
 
 class Experience extends Component {

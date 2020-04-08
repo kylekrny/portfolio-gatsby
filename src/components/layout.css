@@ -22,10 +22,11 @@ a {
 }
 
 #about-head {
-  font-size: 290px;
+  font-size: 200px;
   margin-top: 80px;
   margin-bottom: 80px;
   text-align: center;
+  letter-spacing: 30px;
 }
 
 
@@ -36,14 +37,14 @@ a {
 }
 
 #about1 {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 
 .about-paragraph {
   font-family: manropeLight;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 60px;
-  width: 60%;
+  width: 75%;
   
   margin: auto;
 }
@@ -67,6 +68,7 @@ body {
 }
 
 #brief-container {
+  height: 80vh;
 }
 
 .button-reset {
@@ -233,11 +235,11 @@ h6 {
 }
 
 #landing {
-
+height: 76vh;
 }
 #landing-text {
   font-family: manropeBold;
-  font-size: 240px;
+  font-size: 260px;
   margin-left: 10%;
 }
 main {
@@ -332,6 +334,7 @@ text-align: center;
 
 .title-small {
   font-size: 50px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -341,6 +344,7 @@ text-align: center;
   padding-top: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .view-button{
