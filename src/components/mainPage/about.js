@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Image from "../image"
 
 
-
 class About extends Component {
 
   render() {
@@ -10,7 +9,7 @@ class About extends Component {
     return (
       <div id='about'>
         <div className="about-head">
-          <h5 id='about-head'>About Me</h5>
+            <h5 id='about-head'>About Me</h5>
         </div>
         <div className="about-body">
           <div id="about-image-container">
