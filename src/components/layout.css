@@ -2,6 +2,10 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color: rgb(245, 245, 245);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -55,11 +59,13 @@ a {
 }
 
 body {
+  padding: 0;
   margin: 0;
   height: 100%;
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(245, 245, 245);
 }
 #brief{
   font-family: manropeRegular;
@@ -87,6 +93,14 @@ body {
 .container {
   margin: 0 auto;
   width: 70%;
+}
+
+div {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  height: auto;
 }
 
 #experience {
@@ -175,6 +189,29 @@ body {
   src: url(../fonts/web/Manrope-ExtraBold.woff2);
 }
 
+#footer {
+width: 90%;
+display: flex;
+padding-left: 5%;
+padding-right: 5%;
+justify-content: space-between;
+
+}
+
+#footer-center-text {
+  font-family: manropeBold;
+}
+
+#footer-social-row {
+
+}
+
+#footer-text {
+  font-family: manropeBold;
+}
+
+
+
 h3 {
   font-family: manropeLight;
 }
@@ -196,13 +233,21 @@ h6 {
   padding: 1.5%;
 }
 
-.header-container {
+#header-container {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  height: 5%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  z-index: 2;
+  background-color: rgba(245, 245, 245, .8);
+  backdrop-filter: blur(3px);
+}
+.head-main-container {
+  position: fixed;
 }
 
 .header-text {
@@ -237,26 +282,47 @@ h6 {
 #landing {
 height: 76vh;
 }
-#landing-text {
+#landing-text-top {
   font-family: manropeBold;
   font-size: 260px;
   margin-left: 10%;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
+
+#landing-text-bottom {
+  font-family: manropeBold;
+  font-size: 260px;
+  margin-left: 10%;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+@keyframes slide-in {}
 main {
   display: block;
 }
 
 #menu {
-position: absolute;
+position: fixed;
+top: 0;
 right: 0;
-width: 50%;
+width: 23%;
 height: 100%;
 z-index: 2;
+background-color: rgba(245, 245, 245, .8);
+backdrop-filter: blur(3px);
+}
+
+#menu-button :hover {
+  border: 1px solid black;
 }
 #menu-footer{
-  width: 50%;
+  position: absolute;
+  width: 100%;
   padding-bottom: 10px ;
-  position: fixed;
   bottom: 0;
 }
 #menu-footer-brand{
@@ -274,17 +340,26 @@ margin-bottom: 50px;
 .menu-item {
 text-align: center;
 font-size: 30px;
+font-family: manropeExtraBold;
+margin-bottom: 50px;
 }
 .menu-item:hover {
-color: transparent;
+  text-decoration: underline;
+/* color: transparent;
 -webkit-text-stroke: 1px black;
--webkit-text-fill-color: transparent;
+-webkit-text-fill-color: transparent; */
 }
 
 #menu-nav{
-  width: 30%;
-  margin: 0 auto;
+  width: 60%;
+  margin: auto;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
+
+
 
 #mode-button {
   background-color: transparent;
@@ -294,8 +369,16 @@ color: transparent;
   font-family: manropeExtraBold;
   font-size: 14px;
 }
+
+#mode-button:hover {
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+}
+
 #mode-button-container {
   text-align: center;
+  margin-bottom: 60px;
 }
 
 #nav-link {

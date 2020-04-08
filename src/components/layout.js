@@ -3,10 +3,12 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import Menu from './mainPage/menu'
+import Footer from "../components/mainPage/footer"
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+import {faEnvelope} from '@fortawesome/free-regular-svg-icons'
+import { faInstagram, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'
 import "./layout.css"
-library.add(fab)
+library.add(faInstagram, faGithub, faBehance, faEnvelope)
 
 
 const Layout = ({ children }) => {
@@ -27,8 +29,8 @@ const Layout = ({ children }) => {
     <Menu/>
     <div>
       {children}
-      </div>
-
+    </div>
+    <Footer/>
     </>
   )
 }

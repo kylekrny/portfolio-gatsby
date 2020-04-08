@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import JSONData from '../../data/content.json'
 import Image from '../image'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 class WorkCard extends Component {
 
@@ -31,11 +30,6 @@ class WorkCard extends Component {
     }
 
 
-
- 
-
-  
-  
     return (
       <div id='work-card-container'>
           {JSONData.MyWorkContent.map((data, index) => {

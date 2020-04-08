@@ -13,7 +13,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div id="landing">
-    <h1 id='landing-text'>Kyle <br/> Kearney</h1>
+    <div><h1 id='landing-text-top' data-sal="slide-left" data-sal-duration="2000"  data-sal-easing="ease">Kyle</h1></div>
+    <div><h1 id='landing-text-bottom'data-sal="slide-right" data-sal-duration="2000"  data-sal-easing="ease" >Kearney</h1></div>
+    
     </div>
     <div className="container">
         <Brief/>
