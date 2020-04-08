@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { Link, animateScroll as scroll } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 class Menu extends Component {
 
   constructor(props) {
@@ -27,10 +27,10 @@ class Menu extends Component {
         </div>
 
         <nav id='menu-nav'>
-          {/* <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>Home</Link>
+          <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>Home</Link>
           <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>About</Link>
           <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Experience</Link>
-          <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Work</Link> */}
+          <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Work</Link>
           
           <div id='mode-button-container'>
           <button id='mode-button'>Dark Mode</button>
