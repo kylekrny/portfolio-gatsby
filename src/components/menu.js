@@ -23,7 +23,7 @@ class Menu extends Component {
     const menu = (
       <div id='menu'>
         <div id='menu-header'>
-        <p className='header-text'><button className='button-reset' onClick={this.handleClick}>Close</button></p>
+        <p className='header-text'><button className='button-reset menu-button' onClick={this.handleClick}>Close</button></p>
         </div>
         <div id='mode-button-container'>
           <button id='mode-button'>Dark Mode</button>
@@ -49,7 +49,7 @@ class Menu extends Component {
     const header = (
       <div id='header-container'>
         <p className='header-text desktop' id='header-brand'>Minimalist Web Developer</p>
-        <p className='header-text' id='nav-link'><button className='button-reset' onClick={this.handleClick}>Menu</button></p>
+        <p className='header-text' id='nav-link'><button className='button-reset menu-button' onClick={this.handleClick}>Menu</button></p>
       </div>
     )
     return (

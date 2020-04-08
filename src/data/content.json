@@ -35,13 +35,13 @@
   "MyWorkContent": [
 
     {
-      "Name": "Jeff Jones",
-      "Date": "November, 2019",
-      "ProjectURL": "https://google.com",
-      "Description": "Filler text for the sake of filler text for right now",
-      "Img": {
-        "File": "jonesLogo-01.png",
-        "Alt": "Description"
+      "Title": "Jones Bodywork",
+      "SubTitle": "November 2019 - Front End",
+      "URL": "https://google.com",
+      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer.",
+      "Images": {
+        "Filename1": "jones1.jpeg",
+        "Filename2": "jones2.jpeg"
       },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
@@ -49,18 +49,18 @@
       }
     },   
     {
-      "Name": "Jeff Jones",
-      "Date": "November, 2019",
-      "ProjectURL": "https://google.com",
+      "Title": "Posh Photography",
+      "SubTitle": "November, 2019",
+      "URL": "https://google.com",
       "Description": "Filler text for the sake of filler text for right now",
-      "Img": {
-        "File": "jonesLogo-01.png",
-        "Alt": "Description"
+      "Images": {
+        "Filename1": "jones1.jpeg",
+        "Filename2": "jones2.jpeg"
       },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
         "Back-End": [""]
       }
-    }   
+    }
   ]
 }
