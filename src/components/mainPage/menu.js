@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link, animateScroll as scroll } from "react-scroll";
+import Fade from 'react-reveal/Fade'
+
 class Menu extends Component {
 
   constructor(props) {
     super(props);
     this.state = {
       showMenu: false,
-      showHeader: true
+      showHeader: true,
+      showAnimation: false,
     };
     this.handleClick = this.handleClick.bind(this);
   }
@@ -15,12 +18,13 @@ class Menu extends Component {
   handleClick() {
     this.setState(prevState => ({
       showMenu: !prevState.showMenu,
-      showHeader: !prevState.showHeader
+      showHeader: !prevState.showHeader,
     }));
   }
 
   render() {
     const menu = (
+ 
       <div id='menu'>
         <div id='menu-header'>
         <p className='header-text'><button className='button-reset menu-button' onClick={this.handleClick}>Close</button></p>
@@ -50,16 +54,22 @@ class Menu extends Component {
 
     const header = (
         <>
+        <Fade duration={3000} top opposite>
         <p className='header-text' id='nav-link'><button className='button-reset menu-button' onClick={this.handleClick}>Menu</button></p>
+        </Fade>
         </>
     )
     return (
       <div id='head-main-container'>
         <div id='header-container'>
+        <Fade duration={3000} top opposite>
         <p className='header-text desktop' id='header-brand'>Minimalist Web Developer</p>
+        </Fade>
         {this.state.showHeader ? header : ''}
         </div>
+        <Fade top exit opposite when={this.state.showMenu}>
         {this.state.showMenu ? menu : ''}
+        </Fade>
       </div>
 
        

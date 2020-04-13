@@ -202,9 +202,6 @@ justify-content: space-between;
   font-family: manropeBold;
 }
 
-#footer-social-row {
-
-}
 
 #footer-text {
   font-family: manropeBold;
@@ -268,7 +265,7 @@ h6 {
   height: 480px;
   float: left;
   margin-right: 0px;
-  border: 2px solid black;
+
 }
 .image-container2 {
   width: 270px;
@@ -276,11 +273,12 @@ h6 {
   float: right;
   margin-top: 40px;
   margin-left: 0px;
-  border: 2px solid black;
+
 }
 
 #landing {
 height: 76vh;
+
 }
 #landing-text-top {
   font-family: manropeBold;
@@ -316,7 +314,7 @@ background-color: rgba(245, 245, 245, .8);
 backdrop-filter: blur(3px);
 }
 
-#menu-button :hover {
+.menu-button :hover {
   border: 1px solid black;
 }
 #menu-footer{
@@ -535,4 +533,651 @@ text-align: center;
 .even, 
 .work-text-side {
   float: right
+}
+/* * Large Laptop Media Queries */
+@media screen 
+  and (min-device-width: 1600px) 
+  and (max-device-width: 1800px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    #about-image-container {
+      display: none;
+    }
+
+    .about-paragraph {
+      font-family: manropeLight;
+      width: 100%;
+      letter-spacing: 2px;
+    }
+
+    #about-text-container{
+      width: 65%;
+    
+    }
+}
+/* * Laptop Medua Queries */
+@media screen 
+  and (min-device-width: 1300px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    #about1 {
+      margin-bottom: 40px;
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+   
+    #about-head {
+      font-size: 160px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    #about-image-container {
+      display: none;
+    
+     
+    }
+
+    .about-paragraph {
+      font-family: manropeLight;
+      width: 100%;
+      letter-spacing: 2px;
+    }
+
+    #about-text-container{
+      width: 65%;
+    
+    }
+
+    #brief-container {
+      padding-bottom: 150px;
+    }
+
+    .button-container {
+      width: 100%;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .exp-card {
+      width: 45%;
+      
+    }
+
+    .exp-card-company {
+      margin-top: 0px;
+    }
+
+    .exp-card-container {
+      padding-top: 40px;
+    }
+    
+
+    .exp-card-description {
+      width: 80%;
+      text-align: center;
+    }
+
+    .image-container1 {
+      width: 40%;
+      height: auto;
+
+    }
+    .image-container2 {
+      width: 40%;
+      height: auto;
+
+
+    }
+
+    #landing-text-top {
+      font-family: manropeBold;
+      font-size: 200px;
+      margin-left: 9%;
+
+    }
+    
+    #landing-text-bottom {
+      font-family: manropeBold;
+      font-size: 200px;
+      margin-left: 9%;
+
+    }
+
+    #menu {
+      width: 25%;
+    }
+
+    #menu-nav {
+      width: 80%;
+      margin-top: 10%;
+    }
+
+    #resume-button {
+      margin-left: 0px;
+    }
+
+
+
+}
+/* * Tablet Landscape Media Queries */
+@media 
+  (max-device-width: 1299px)
+  and (orientation: landscape)  {
+
+    #about1 {
+      margin-bottom: 40px;
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+   
+    #about-head {
+      font-size: 130px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    #about-image-container {
+      display: none;
+    
+     
+    }
+
+    .about-paragraph {
+      font-family: manropeLight;
+      width: 100%;
+      letter-spacing: 2px;
+    }
+
+    #about-text-container{
+      width: 65%;
+    
+    }
+
+    #brief-container {
+      height: 100%;
+      /* padding-bottom: 150px; */
+    }
+
+    .button-container {
+      width: 100%;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .exp-card {
+      width: 45%;
+      
+    }
+
+    .exp-card-company {
+      margin-top: 0px;
+    }
+
+    .exp-card-container {
+      padding-top: 40px;
+    }
+    
+
+    .exp-card-description {
+      width: 80%;
+      text-align: center;
+    }
+
+    #header-container {
+      height: 7%;
+    }
+
+    .image-container1 {
+      width: 40%;
+      height: auto;
+
+    }
+    .image-container2 {
+      width: 40%;
+      height: auto;
+      margin-top: 100px;
+
+
+    }
+
+    #landing-text-top {
+      font-family: manropeBold;
+      font-size: 200px;
+      margin-left: 9%;
+      margin-top: 20px;
+
+    }
+    
+    #landing-text-bottom {
+      font-family: manropeBold;
+      font-size: 200px;
+      margin-left: 9%;
+
+    }
+
+    #menu {
+      width: 25%;
+    }
+
+    #menu-nav {
+      width: 80%;
+      margin-top: 10%;
+    }
+
+    #resume-button {
+      margin-left: 0px;
+    }
+
+    .work-card-title {
+      padding-top: 0px;
+      margin-top: 0px;
+    }
+  
+
+}
+
+/* * Tablet Portrait Media Queries */
+@media  
+ (max-device-width: 1100px)
+  and (orientation: portrait)  {
+
+    .about-body {
+      flex-direction: column;
+    }
+
+    #about-head {
+      font-size: 90px;
+      letter-spacing: 10px;
+      text-align: center;
+    }
+
+    #about-image-container {
+      width: 100%
+    }
+
+    .about-paragraph {
+      width: 100%;
+    }
+
+    #about-text-container {
+      margin-top: 60px;
+      width: 100%
+    }
+
+    .button-container {
+      width: 100%;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+    }
+    #brief {
+      font-size: 28px;
+      letter-spacing: 2px;
+      line-height: 80px;
+    }
+
+    #brief-container {
+      height: 100%;
+      padding-bottom: 50px;
+    }
+
+
+
+    .container {
+      width: 80%;
+    }
+
+    .exp-card {
+      width: 100%;
+      
+    }
+
+    .exp-card-company {
+      margin-top: 0px;
+    }
+
+    .exp-card-container {
+      flex-direction: column;
+      padding-top: 40px;
+    }
+    
+
+    .exp-card-description {
+      width: 80%;
+      text-align: center;
+    }
+
+
+    #exp-title-small{
+      font-size: 30px;
+
+    }
+    #exp-title-large{
+      font-size: 72px;
+    }
+
+    #footer {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #footer-center-text {
+      display: none;
+    }
+    
+    #footer-social-row {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    
+    #footer-text {
+      text-align: center;
+    }
+
+    #header-brand {
+      display: none;
+    }
+
+    #header-container {
+      justify-content: center;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    .image-container1 {
+      width: 80%;
+      height: auto;
+      margin: 20px auto
+
+    }
+    .image-container2 {
+      width: 80%;
+      height: auto;
+      margin: 20px auto
+
+    }
+
+    #landing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      height: 90vh;
+    }
+
+    #landing-text-top {
+      font-size: 120px;
+      margin: 0 auto;
+      letter-spacing: 4px;
+    }
+    #landing-text-bottom {
+      font-size: 120px;
+      margin: 0 auto;
+      letter-spacing: 4px;
+    }
+
+    #menu {
+      width: 100%;
+    }
+
+    .menu-button {
+      text-align: center;
+    }
+
+    #menu-nav {
+      margin-top: 30%;
+    }
+
+    #nav-link {
+      text-align: center;
+      float: none;
+      padding-right: 0%
+    }
+
+    .title-large {
+      font-size: 90px;
+      margin-bottom: 50px;
+    }
+
+    .title-small {
+      font-size: 45px;
+    }
+    #resume-button {
+      margin-left: 0px;
+    }
+    
+    .work-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-bottom: 100px;
+    }
+
+    .work-card-description {
+      width: 90%;
+    }
+    .work-card-subtitle {
+      letter-spacing: 2px;
+    }
+
+    .work-card-title {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+
+    .work-image-side {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .work-text-side {
+      width: 100%;
+    }
+  }
+
+/* * Phone Medua Queries */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    .about-body {
+      flex-direction: column;
+    }
+
+    #about-head {
+      font-size: 90px;
+      letter-spacing: 10px;
+      text-align: center;
+    }
+
+    #about-image-container {
+      width: 100%
+    }
+
+    .about-paragraph {
+      width: 100%;
+    }
+
+    #about-text-container {
+      margin-top: 60px;
+      width: 100%
+    }
+
+    .button-container {
+      width: 100%;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+    }
+    #brief {
+      font-size: 28px;
+      letter-spacing: 2px;
+      line-height: 80px;
+    }
+
+    #brief-container {
+      height: 100vh;
+      padding-bottom: 150px;
+    }
+
+
+
+    .container {
+      width: 80%;
+    }
+
+    .exp-card {
+      width: 100%;
+      
+    }
+
+    .exp-card-company {
+      margin-top: 0px;
+    }
+
+    .exp-card-container {
+      flex-direction: column;
+      padding-top: 40px;
+    }
+    
+
+    .exp-card-description {
+      width: 80%;
+      text-align: center;
+    }
+
+
+    #exp-title-small{
+      font-size: 30px;
+
+    }
+    #exp-title-large{
+      font-size: 72px;
+    }
+
+    #footer {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #footer-center-text {
+      display: none;
+    }
+    
+    #footer-social-row {
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    
+    #footer-text {
+      text-align: center;
+    }
+
+    #header-brand {
+      display: none;
+    }
+
+    #header-container {
+      justify-content: center;
+    }
+
+    .header-text {
+      text-align: center;
+    }
+
+    .image-container1 {
+      width: 80%;
+      height: auto;
+      margin: 20px auto
+
+    }
+    .image-container2 {
+      width: 80%;
+      height: auto;
+      margin: 20px auto
+
+    }
+
+    #landing {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      height: 80vh;
+    }
+
+    #landing-text-top {
+      font-size: 90px;
+      margin-left: 1%;
+    }
+    #landing-text-bottom {
+      font-size: 90px;
+      margin-left: 1%;
+      margin-bottom: 0px;
+    }
+
+    #menu {
+      width: 100%;
+    }
+
+    .menu-button {
+      text-align: center;
+    }
+
+    #menu-nav {
+      margin-top: 10%;
+    }
+
+    #nav-link {
+      text-align: center;
+      float: none;
+      padding-right: 0%
+    }
+
+    .title-large {
+      font-size: 90px;
+      margin-bottom: 50px;
+    }
+
+    .title-small {
+      font-size: 45px;
+    }
+    #resume-button {
+      margin-left: 0px;
+    }
+    
+    .work-card {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-bottom: 100px;
+    }
+
+    .work-card-description {
+      width: 90%;
+    }
+    .work-card-subtitle {
+      letter-spacing: 2px;
+    }
+
+    .work-card-title {
+      font-size: 40px;
+      padding-top: 50px;
+    }
+
+    .work-image-side {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .work-text-side {
+      width: 100%;
+    }
 }

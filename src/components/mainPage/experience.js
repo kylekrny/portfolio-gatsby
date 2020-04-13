@@ -11,7 +11,7 @@ class Experience extends Component {
       <div className='exp-card-container'>
       {JSONData.Content.map((data, index) => {
         return (
-          <Fade delay={100 * index}>
+          <Fade delay={200 * index}>
           <div className="exp-card">
               <h4 className='exp-card-time'>{data.Time}</h4>
               <h6 className='exp-card-company'>{data.Head}</h6>

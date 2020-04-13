@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import WorkCard from './workCard'
+import Slide from 'react-reveal/Slide'
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 
@@ -9,8 +10,16 @@ class Work extends Component {
   render() {
     return (
       <div id='work'>
-        <h5 className='title-small work-title'>My</h5>
-        <h5 className='title-large work-title'>Work</h5>
+        <h5 className='title-small work-title'>
+          <Slide left cascade delay={200}>
+          My
+          </Slide>
+          </h5>
+        <h5 className='title-large work-title'>
+          <Slide left cascade delay={200}>
+            Work
+          </Slide>
+        </h5>
         <WorkCard/>
         {/* <div className="work-footer">
           <h6 className='work-footer-text'>View more of my work</h6>
