@@ -7,9 +7,9 @@ class Brief extends Component {
     
     return (
       <div id='brief-container'>
-        <Fade  duration={3000} delay={3000}>
+        <Fade  duration={3000} delay={1000}>
           <p id="brief">
-          Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. Focused on developing engaging interactive for my clients.
+          Hello! My name is Kyle Kearney, I build incredible websites for people. I have a simple philosophy behind my work: Design for people, develop for tomorrow.
           </p>
         </Fade>
       </div>

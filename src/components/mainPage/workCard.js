@@ -32,6 +32,8 @@ class WorkCard extends Component {
             default:
               return 'right'
           } 
+        default :
+        return
       }
     }
 

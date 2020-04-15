@@ -26,10 +26,10 @@ class Experience extends Component {
     return (
       <div id='experience'>
         <div id="experience-head">
-          <Slide right delay={400}>
+          <Slide left delay={400}>
           <h5 id='exp-title-small'>Professional</h5>
           </Slide>
-          <Slide left delay={400}>
+          <Slide right delay={400}>
           <h5 id='exp-title-large'>Synopsis</h5>
           </Slide>
 

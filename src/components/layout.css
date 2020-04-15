@@ -2,10 +2,10 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background-color: rgb(245, 245, 245);
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: ivory;
 }
 
 a {
@@ -41,7 +41,7 @@ a {
 }
 
 #about1 {
-  margin-bottom: 40px;
+
 }
 
 .about-paragraph {
@@ -49,7 +49,8 @@ a {
   font-size: 22px;
   line-height: 60px;
   width: 75%;
-  
+  margin-bottom: 40px;
+  padding-bottom: 15px;
   margin: auto;
 }
 
@@ -65,11 +66,11 @@ body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(245, 245, 245);
+  background-color: ivory;
 }
 #brief{
   font-family: manropeRegular;
-  font-size: 60px;
+  font-size: 85px;
   line-height: 140px;
 }
 
@@ -135,11 +136,14 @@ div {
 .exp-card-time {
   text-align: center;
   font-size: 30px;
+  letter-spacing: 4px;
 }
 .exp-card-company {
   text-align: center;
-  font-size: 30px;
-  margin: 20px 5px
+  font-size: 20px;
+  margin: 20px 5px;
+  letter-spacing: 2px;
+  font-family: manropeExtraLight;
 }
 #exp-title-small{
   font-size: 50px;
@@ -240,7 +244,6 @@ h6 {
   flex-direction: row;
   flex-wrap: nowrap;
   z-index: 2;
-  background-color: rgba(245, 245, 245, .8);
   backdrop-filter: blur(3px);
 }
 .head-main-container {
@@ -283,6 +286,7 @@ height: 76vh;
 #landing-text-top {
   font-family: manropeBold;
   font-size: 260px;
+  letter-spacing: 10px;
   margin-left: 10%;
   padding-right: 0px;
   margin-right: 0px;
@@ -292,6 +296,7 @@ height: 76vh;
 #landing-text-bottom {
   font-family: manropeBold;
   font-size: 260px;
+  letter-spacing: 10px;
   margin-left: 10%;
   padding-right: 0px;
   margin-right: 0px;
@@ -310,12 +315,11 @@ right: 0;
 width: 23%;
 height: 100%;
 z-index: 2;
-background-color: rgba(245, 245, 245, .8);
-backdrop-filter: blur(3px);
+backdrop-filter: blur(1px);
 }
 
 .menu-button :hover {
-  border: 1px solid black;
+  border: 1px solid inherit;
 }
 #menu-footer{
   position: absolute;
@@ -362,7 +366,7 @@ margin-bottom: 50px;
 #mode-button {
   background-color: transparent;
   padding: 7px 28px;
-  border: 1px solid black;
+  border: 1px solid inherit;
   border-radius: 25px;
   font-family: manropeExtraBold;
   font-size: 14px;
@@ -370,7 +374,7 @@ margin-bottom: 50px;
 
 #mode-button:hover {
   color: white;
-  background-color: black;
+  background-color: inherit;
   border-radius: 25px;
 }
 

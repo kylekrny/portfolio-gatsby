@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 import Fade from 'react-reveal/Fade'
 
 class Menu extends Component {
@@ -36,14 +36,14 @@ class Menu extends Component {
           <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Experience</Link>
           <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Work</Link>
           
-          <div id='mode-button-container'>
+          {/* <div id='mode-button-container'>
           <button id='mode-button'>Dark Mode</button>
-          </div>
+          </div> */}
         <div className='social-row'>
-        <a href=""><FontAwesomeIcon icon={["far", "envelope"]} className='social-icon' style={{color:"#000000"}} /></a>
-        <a href=""><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon' style={{color:"#000000"}} /></a>
-        <a href=""><FontAwesomeIcon icon={["fab", "github"]} className='social-icon' style={{color:"#000000"}} /></a>
-        <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a>
+        <a href="Mailto:hello@kyleswork.com"><FontAwesomeIcon icon={["far", "envelope"]} className='social-icon' style={{color:"#000000"}} /></a>
+        <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/dev.kyle/"><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon' style={{color:"#000000"}} /></a>
+        <a target="_blank" rel='noopener noreferrer' href="https://github.com/kyledkearney"><FontAwesomeIcon icon={["fab", "github"]} className='social-icon' style={{color:"#000000"}} /></a>
+        {/* <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a> */}
         </div>
         </nav>
         <div id='menu-footer'>

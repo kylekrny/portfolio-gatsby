@@ -4,41 +4,26 @@
     {
       "Time": "2018 - present",
       "Head": "Carbon",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
+      "Description": "Carbon was a joint venture, to develop a web development firm tailored towards smaller clientele. As lead developer / Partner I was responsible for outbound sales as well as architecting and overseeing various projects."
     },
     {
-      "Time": "2018 - present",
-      "Head": "Carbon",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
+      "Time": "2017 - 2018",
+      "Head": "Denver IT Consultants",
+      "Description": "I was responsible for diagnosing and repairing various computer, network, and system issues. For a wide array of business clients ranging in size from small to large."
     },
     {
-      "Time": "2018 - present",
-      "Head": "Carbon",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
-    },
-    {
-      "Time": "2018 - present",
-      "Head": "Carbon",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
-    },
-    {
-      "Time": "2018 - present",
-      "Head": "Carbon",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
-    },
-    {
-      "Time": "2018 - present",
-      "Head": "Carbon",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer."
+      "Time": "2016 - 2017",
+      "Head": "RE/MAX Cherry Creek",
+      "Description": "At Re/Max I was working under a top producing agent helping with misc admin tasks; as well as, generating ads, designs, and marketing strategies for helping homes sell faster."
     }
   ],
   "MyWorkContent": [
 
     {
       "Title": "Jones Bodywork",
-      "SubTitle": "November 2019 - Front End",
-      "URL": "https://google.com",
-      "Description": "Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. Hi! My name is Kyle Kearney, I am a full stack Web Developer. Focused on developing engaging interactive for my clients.  I am a full stack Web Developer. ",
+      "SubTitle": "January 2020 - Front End",
+      "URL": "https://jonesbodywork.com",
+      "Description": "Jeff Jones was a referral client that was looking to translate his minimalist nature and his humanity on to his website. We completely revamped his site, and helped him rebrand. Jones Bodywork is a custom development project, utilizing a simple front end work.",
       "Images": {
         "Filename1": "jones1.jpeg",
         "Filename2": "jones2.jpeg"
@@ -49,13 +34,41 @@
       }
     },   
     {
-      "Title": "Posh Photography",
-      "SubTitle": "November, 2019",
-      "URL": "https://google.com",
-      "Description": "Filler text for the sake of filler text for right now",
+      "Title": "DP Waterer",
+      "SubTitle": "December 2019 - Front End / Back End",
+      "URL": "https://dpwaterer.com/",
+      "Description": "A Watering Post company, that I partnered with a larger firm with. I was personally responsible for the various calculators, and shop logic. The site runs on Wordpress with a Woo-commerce store, and javascript calculators.",
       "Images": {
-        "Filename1": "jones1.jpeg",
-        "Filename2": "jones2.jpeg"
+        "Filename1": "dpwaterer1.jpeg",
+        "Filename2": "dpwaterer2.jpeg"
+      },
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": [""]
+      }
+    },   
+    {
+      "Title": "BarnHouse Tap",
+      "SubTitle": "December 2019 - Front End / Back End",
+      "URL": "https://www.barnhousetap.com/",
+      "Description": "A cold sale customer, where I met them going door to door. They have a wide a array of beers, and spirits on tap that they wanted to be able to show case on their site. Connected to a firebase power backend allows data manipulation by the client.",
+      "Images": {
+        "Filename1": "barnhouse1.jpeg",
+        "Filename2": "barnhouse2.jpeg"
+      },
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": [""]
+      }
+    },   
+    {
+      "Title": "Posh Photography",
+      "SubTitle": "November, 2019 - Front End",
+      "URL": "https://hireposh.com/",
+      "Description": "A photography business, that specializing in landscape and Portrait photographies in Denver, Colorado. They approached me with the idea to develop something simple and clean to showcase some of their best work.",
+      "Images": {
+        "Filename1": "posh1.jpeg",
+        "Filename2": "posh2.jpeg"
       },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
