@@ -6,6 +6,10 @@ import Fade from 'react-reveal/Fade';
 class Experience extends Component {
 
 
+  resumeOpen (th) {
+    window.open('https://drive.google.com/file/d/12t1CsOD_NILjajU-WCyJYK9GcRiNbXsn/view?usp=sharing', '_blank')
+  }
+
   render() {
     const card = (
       <div className='exp-card-container'>
@@ -37,7 +41,7 @@ class Experience extends Component {
         </div>
           {card}
       <div className="button-container">
-        <button id='resume-button'>Resume / CV</button>
+        <button onClick={this.resumeOpen} id='resume-button'>Resume / CV</button>
       </div>
       </div>
     )
