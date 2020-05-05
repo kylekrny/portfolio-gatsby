@@ -7,7 +7,7 @@ class Experience extends Component {
 
 
   resumeOpen (th) {
-    window.open('https://drive.google.com/file/d/12t1CsOD_NILjajU-WCyJYK9GcRiNbXsn/view?usp=sharing', '_blank')
+    window.open('https://drive.google.com/open?id=12t1CsOD_NILjajU-WCyJYK9GcRiNbXsn', '_blank')
   }
 
   render() {

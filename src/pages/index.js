@@ -8,7 +8,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Work from "../components/mainPage/work"
 import Fade from 'react-reveal/Fade';
+import ReactGA from 'react-ga';
 // import Skills from "../components/skills"
+
+
+ReactGA.initialize('UA-164183008-1');
+
 
 const IndexPage = () => (
   <Layout>

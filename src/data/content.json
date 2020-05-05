@@ -2,20 +2,21 @@
   "Title": "Content",
   "Content": [
     {
-      "Time": "2017 - present",
+      "Time": "2019 - Present",
+      "Head": "Freelance",
+      "Description": "As a freelance developer, I work along side teams of all sizes. I have learned to use many different project management tools and methods. My primary responsibilities at the agencies were testing utilities, react component development, and debugging code."
+    },
+    {
+      "Time": "2017 - 2019",
       "Head": "Carbon",
-      "Description": "Carbon was a joint venture, to develop a web development firm tailored towards smaller clientele. As lead developer / Partner I was responsible for outbound sales as well as architecting and overseeing various projects."
+      "Description": "Carbon is a web development agency tailored towards small business clients, and sub contracting under other agencies. Apart of the team I developed their library of testing utilities; as well as, implemented agile project management into their workflow."
     },
     {
       "Time": "2016 - 2017",
       "Head": "Denver IT Consultants",
-      "Description": "I was responsible for diagnosing and repairing various computer, network, and system issues. For a wide array of business clients ranging in size from small to large."
-    },
-    {
-      "Time": "2015 - 2016",
-      "Head": "RE/MAX Cherry Creek",
-      "Description": "At Re/Max I was working under a top producing agent helping with misc admin tasks; as well as, generating ads, designs, and marketing strategies for helping homes sell faster."
+      "Description": "Field IT Consultant solving network, and system issues. Communicated with the client about the issue, diagnosed, and solved issues on site. Developed a ticket system to allow clients, techs, and management to monitor and communicate over issues."
     }
+
   ],
   "MyWorkContent": [
 
