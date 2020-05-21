@@ -9,7 +9,7 @@ class Brief extends Component {
       <div id='brief-container'>
         <Fade  duration={3000} delay={1000}>
           <p id="brief">
-          Hello! My name is Kyle Kearney, I build incredible websites for people. I have a simple philosophy behind my work: Design for people, develop for tomorrow.
+          Hello! My name is Kyle Kearney, I love to design and develop great user experiences. I have a simple philosophy behind my work. Design for people, develop for tomorrow.
           </p>
         </Fade>
       </div>
