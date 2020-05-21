@@ -24,7 +24,7 @@
       "Title": "Jones Bodywork",
       "SubTitle": "January 2020 - Front End",
       "URL": "https://jonesbodywork.com",
-      "Description": "Jeff Jones was a referral client that was looking to translate his minimalist nature and his humanity on to his website. We completely revamped his site, and helped him rebrand. Jones Bodywork is a custom development project, utilizing a simple front end work.",
+      "Description": "Jeff Jones was a referral client looking to translate his minimalist nature and his general compassion to his clients. Jones Bodywork is a custom development project, utilizing a clean and lightweight static build.",
       "Images": {
         "Filename1": "jones1.jpeg",
         "Filename2": "jones2.jpeg"
@@ -38,7 +38,7 @@
       "Title": "DP Waterer",
       "SubTitle": "December 2019 - Front End / Back End",
       "URL": "https://dpwaterer.com/",
-      "Description": "A Watering Post company, that I partnered with a larger firm with. I was personally responsible for the various calculators, and shop logic. The site runs on Wordpress with a Woo-commerce store, and javascript calculators.",
+      "Description": "A Watering Post company, that I worked on under a larger firm. I was personally responsible for the various calculators, and shop logic through out the site. The site runs on Wordpress with a Woo-commerce store, and javascript calculators.",
       "Images": {
         "Filename1": "dpwaterer1.jpeg",
         "Filename2": "dpwaterer2.jpeg"
@@ -52,7 +52,7 @@
       "Title": "BarnHouse Tap",
       "SubTitle": "December 2019 - Front End / Back End",
       "URL": "https://www.barnhousetap.com/",
-      "Description": "A cold sale customer, where I met them going door to door. They have a wide a array of beers, and spirits on tap that they wanted to be able to show case on their site. Connected to a firebase power backend allows data manipulation by the client.",
+      "Description": "A local Englewood Bar with a wide array of ever changing beers, and spirits on tap. They wanted to be able to update their clients what was on tap at the moment. Built with a simple lightweight front end, and connected to a noSQL based backed for easy user manipulation of what was on tap.",
       "Images": {
         "Filename1": "barnhouse1.jpeg",
         "Filename2": "barnhouse2.jpeg"
@@ -66,7 +66,7 @@
       "Title": "Posh Photography",
       "SubTitle": "November, 2019 - Front End",
       "URL": "https://hireposh.com/",
-      "Description": "A photography business, that specializing in landscape and Portrait photographies in Denver, Colorado. They approached me with the idea to develop something simple and clean to showcase some of their best work.",
+      "Description": "A photography business, that specializes in landscape and portrait photography. They approached me with the idea to develop something simple and clean to showcase some of their best work.",
       "Images": {
         "Filename1": "posh1.jpeg",
         "Filename2": "posh2.jpeg"
