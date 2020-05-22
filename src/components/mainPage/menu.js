@@ -24,17 +24,16 @@ class Menu extends Component {
 
   render() {
     const menu = (
- 
       <div id='menu'>
         <div id='menu-header'>
         <p className='header-text'><button className='button-reset menu-button' onClick={this.handleClick}>Close</button></p>
         </div>
 
         <nav id='menu-nav'>
-          <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>Home</Link>
-          <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>About</Link>
-          <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Experience</Link>
-          <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Work</Link>
+          <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
+          <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
+          <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
+          <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
           
           {/* <div id='mode-button-container'>
           <button id='mode-button'>Dark Mode</button>
@@ -63,13 +62,19 @@ class Menu extends Component {
       <div id='head-main-container'>
         <div id='header-container'>
         <Fade duration={3000} top opposite>
-        <p className='header-text desktop' id='header-brand'>Minimalist Web Developer</p>
+        <p className='header-text desktop' id='header-brand'>Front End Web Developer</p>
         </Fade>
-        {this.state.showHeader ? header : ''}
+        {/* {this.state.showHeader ? header : ''} */}
+        <div className="header-nav">
+          <Link to="landing" className='header-nav-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
+          <Link to="about" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
+          <Link to="experience" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
+          <Link to="work" className='header-nav-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
         </div>
-        <Fade top exit opposite when={this.state.showMenu}>
+        </div>
+        {/* <Fade top exit opposite when={this.state.showMenu}>
         {this.state.showMenu ? menu : ''}
-        </Fade>
+        </Fade> */}
       </div>
 
        
