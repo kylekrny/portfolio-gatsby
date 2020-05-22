@@ -5,14 +5,13 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: ivory;
   height: 100%;
   width: 100%;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  
 }
 
 #about {
@@ -116,6 +115,10 @@ body {
   flex-direction: row;
   justify-content: center;
   align-content: center;
+}
+
+.color-dark-blue {
+  color: #05265E
 }
 
 div {

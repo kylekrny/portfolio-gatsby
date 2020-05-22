@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import Fade from 'react-reveal/Fade';
 import ReactGA from 'react-ga';
 // import About from "../components/mainPage/about"
-// import Brief from "../components/mainPage/brief"
+import Brief from "../components/mainPage/brief"
 // import Work from "../components/mainPage/work"
 // import Contact from '../components/mainPage/contact'
 // import Skills from '../components/mainPage/skills'
@@ -14,24 +14,29 @@ import ReactGA from 'react-ga';
 
 
 ReactGA.initialize('UA-164183008-1');
-const changeColor = (color) => {
-  document.body.style.backgroundColor = color
-  renderCircles()
 
-  var x = document.getElementsByClassName('text')
+
+
+const changeColor = (color, color2) => {
+  document.body.style.backgroundColor = color
+  document.body.style.color = color2
+
+
+
 }
 
 
 const renderCircles = () => {
-  const colors = ['rgb(239, 233, 244)', 'rgb(165, 195, 247)', '#242325', '#F96167', '#358597', '#F4B5B7', '#132A13']
+  const colors = ['rgb(239, 233, 244)', 'rgb(165, 195, 247)', 'rgb(36, 35, 37)', '#F96167', '#358597', '#F4B5B7', '#132A13']
+  const altColors = ['#000000', '#05265E', '#ffffff', '#FFFFFF', '#F4A896', '#2F004F', '#E5BE9E']
   const circles = []
   const activeColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color')
 
   for (let i = 0; i < colors.length; i++) {
         if (colors[i] === activeColor ) {
-          circles.push(<span class='color-circle color-circle-active' key={colors[i]} onClick={() => changeColor(colors[i])} style={{backgroundColor: colors[i]}}></span>)
+          circles.push(<span className='color-circle color-circle-active' key={colors[i]} onClick={() => changeColor(colors[i], altColors[i])} style={{backgroundColor: colors[i]}}></span>)
         } else (
-          circles.push(<span class='color-circle' key={colors[i]} onClick={() => changeColor(colors[i])} style={{backgroundColor: colors[i]}}></span>)
+          circles.push(<span className='color-circle' key={colors[i]} onClick={() => changeColor(colors[i], altColors[i] )} style={{backgroundColor: colors[i]}}></span>)
         )
     }
 
@@ -60,8 +65,8 @@ const IndexPage = () => (
 
     </div>
     <div className="container">
-        {/* <Brief/>
-        <About/>
+        <Brief/>
+        {/* <About/>
         <Work/>
         <Skills/>
         <Contact/> */}
