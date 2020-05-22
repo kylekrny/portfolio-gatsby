@@ -5,9 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Fade from 'react-reveal/Fade';
 import ReactGA from 'react-ga';
-// import About from "../components/mainPage/about"
+import About from "../components/mainPage/about"
 import Brief from "../components/mainPage/brief"
-// import Work from "../components/mainPage/work"
+import Work from "../components/mainPage/work"
 // import Contact from '../components/mainPage/contact'
 // import Skills from '../components/mainPage/skills'
 // import Skills from "../components/skills"
@@ -27,7 +27,7 @@ const changeColor = (color, color2) => {
 
 
 const renderCircles = () => {
-  const colors = ['rgb(239, 233, 244)', 'rgb(165, 195, 247)', 'rgb(36, 35, 37)', '#F96167', '#358597', '#F4B5B7', '#132A13']
+  const colors = ['rgb(239, 233, 244)', 'rgb(165, 195, 247)', 'rgb(36, 35, 37)', '#D2302C', '#358597', '#F4B5B7', '#132A13']
   const altColors = ['#000000', '#05265E', '#ffffff', '#FFFFFF', '#F4A896', '#2F004F', '#E5BE9E']
   const circles = []
   const activeColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color')
@@ -66,9 +66,9 @@ const IndexPage = () => (
     </div>
     <div className="container">
         <Brief/>
-        {/* <About/>
+        <About/>
         <Work/>
-        <Skills/>
+        {/* <Skills/>
         <Contact/> */}
     </div>
   </Layout>

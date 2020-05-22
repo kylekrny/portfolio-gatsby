@@ -36,13 +36,14 @@ a {
 
 
 #about-image-container {
-  width: 45%;
+  width: 50%;
 
  
 }
 
 #about1 {
-
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .about-paragraph {
@@ -56,7 +57,7 @@ a {
 }
 
 #about-text-container{
-  width: 45%;
+  width: 52%;
   padding-top: 0;
 }
 
@@ -77,6 +78,8 @@ body {
 
 #brief-container {
   height: 80vh;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .button-reset {
@@ -98,9 +101,9 @@ body {
 }
 
 .color-circle {
- height: 50px;
- width: 50px;
- margin: 0 25px;
+ height: 25px;
+ width: 25px;
+ margin: 0 10px;
  border-radius: 50%;
  display: inline-block;
 }
@@ -330,11 +333,13 @@ position: relative;
   font-family: manropeBold;
   font-size: 260px;
   letter-spacing: 10px;
-  margin-left: 0%;
   padding-right: 0px;
+  margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+  padding-bottom: 0px;
   text-align: center;
+
   
 }
 
@@ -346,9 +351,10 @@ position: relative;
   margin-left: 0%;
   padding-right: 0px;
   margin-right: 0px;
-  margin-top: 0px;
   margin-bottom: 0px;
+  margin-top: -40px;
   text-align: center;
+
 }
 
 @keyframes slide-in {}
@@ -553,7 +559,7 @@ text-align: center;
   padding-bottom: 0;
 }
 .work-title {
-  text-align: right;
+  text-align: center;
 }
 
 .work-image-side {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import WorkCard from './workCard'
+// import WorkCard from './workCard'
 import Slide from 'react-reveal/Slide'
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
@@ -20,7 +20,7 @@ class Work extends Component {
             Work
           </Slide>
         </h5>
-        <WorkCard/>
+        {/* <WorkCard/> */}
         {/* <div className="work-footer">
           <h6 className='work-footer-text'>View more of my work</h6>
           <div className='social-row'>
