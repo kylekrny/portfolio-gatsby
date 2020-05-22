@@ -3,12 +3,13 @@ import React from "react"
 
 import About from "../components/mainPage/about"
 import Brief from "../components/mainPage/brief"
-import Experience from "../components/mainPage/experience"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Work from "../components/mainPage/work"
 import Fade from 'react-reveal/Fade';
 import ReactGA from 'react-ga';
+import Contact from '../components/mainPage/contact'
+import Skills from '../components/mainPage/skills'
 // import Skills from "../components/skills"
 
 
@@ -29,8 +30,9 @@ const IndexPage = () => (
     <div className="container">
         <Brief/>
         <About/>
-        <Experience/>
         <Work/>
+        <Skills/>
+        <Contact/>
     </div>
   </Layout>
 )
