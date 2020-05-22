@@ -62,14 +62,14 @@ class Menu extends Component {
       <div id='head-main-container'>
         <div id='header-container'>
         <Fade duration={3000} top opposite>
-        <p className='header-text desktop' id='header-brand'>Front End Web Developer</p>
+        <p className='header-text desktop color-text' id='header-brand'>Front End Web Developer</p>
         </Fade>
         {/* {this.state.showHeader ? header : ''} */}
         <div className="header-nav">
-          <Link to="about" className='header-nav-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
-          <Link to="work" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
-          <Link to="skills" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
-          <Link to="contact" className='header-nav-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
+          <Link to="about" className='header-nav-item color-text' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
+          <Link to="work" className='header-nav-item color-text' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
+          <Link to="skills" className='header-nav-item color-text' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
+          <Link to="contact" className='header-nav-item color-text' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
         </div>
         </div>
         {/* <Fade top exit opposite when={this.state.showMenu}>

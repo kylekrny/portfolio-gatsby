@@ -6,6 +6,8 @@ html {
   padding: 0;
   overflow-x: hidden;
   background-color: ivory;
+  height: 100%;
+  width: 100%;
 }
 
 a {
@@ -66,7 +68,7 @@ body {
   width: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: ivory;
+  background-color: #EFE9F4;
 }
 #brief{
   font-family: manropeRegular;
@@ -94,6 +96,26 @@ body {
 .container {
   margin: 0 auto;
   width: 70%;
+}
+
+.color-circle {
+ height: 50px;
+ width: 50px;
+ margin: 0 25px;
+ border-radius: 50%;
+ display: inline-block;
+}
+
+.color-circle-active {
+  border: 2px solid black;
+}
+
+
+.color-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 div {
@@ -292,27 +314,38 @@ h6 {
 }
 
 #landing {
-height: 76vh;
-
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+position: relative;
 }
+
+
 #landing-text-top {
   font-family: manropeBold;
   font-size: 260px;
   letter-spacing: 10px;
-  margin-left: 10%;
+  margin-left: 0%;
   padding-right: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+  text-align: center;
+  
 }
+
 
 #landing-text-bottom {
   font-family: manropeBold;
   font-size: 260px;
   letter-spacing: 10px;
-  margin-left: 10%;
+  margin-left: 0%;
   padding-right: 0px;
   margin-right: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
 }
 
 @keyframes slide-in {}
