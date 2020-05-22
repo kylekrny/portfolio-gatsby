@@ -66,10 +66,10 @@ class Menu extends Component {
         </Fade>
         {/* {this.state.showHeader ? header : ''} */}
         <div className="header-nav">
-          <Link to="landing" className='header-nav-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
-          <Link to="about" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
-          <Link to="experience" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
-          <Link to="work" className='header-nav-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
+          <Link to="about" className='header-nav-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
+          <Link to="work" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
+          <Link to="skills" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
+          <Link to="contact" className='header-nav-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
         </div>
         </div>
         {/* <Fade top exit opposite when={this.state.showMenu}>
