@@ -9,8 +9,16 @@ export default class ColorChange extends Component {
     this.state = {
       showColors: false,
       showButton: true,
+      colorActive : false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.toggleClass = this.toggleClass.bind(this)
+  }
+
+
+  toggleClass() {
+    const currentState = this.state.colorActive
+    this.setState({colorActive: !currentState})
   }
 
     handleClick() {
@@ -21,7 +29,7 @@ export default class ColorChange extends Component {
     }
 
     changeColor = (key) => {
-      document.body.classList.add(key)
+      document.body.className = key
     }
 
     // changeColor = (color, color2) => {
@@ -29,6 +37,17 @@ export default class ColorChange extends Component {
     //   document.body.style.color = color2
 
     // }
+
+    renderColors = () => {
+      const classes = ['body-white', 'body-blue', 'body-black', 'body-red', 'body-turqoise', 'body-pink', 'body-green']
+      const circles = []
+
+      for (let i = 0; i < classes.length; i++) {
+        circles.push(<span className={'color-circle ' + classes[i] } onClick={() => this.changeColor(classes[i])}></span>)
+      }
+
+      return circles
+    }
 
     // renderCircles = () => {
     //   const colors = ['rgb(239, 233, 244)', 'rgb(165, 195, 247)', 'rgb(36, 35, 37)', '#D2302C', '#358597', '#F4B5B7', '#132A13']
@@ -50,11 +69,12 @@ export default class ColorChange extends Component {
 
 
     
-        // const circles = (
-        //   <div className='color-row'>
-        //   {this.circles}
-        //   </div>
-        // )
+        const circles = (
+          <div className='color-row'>
+          {this.renderColors()}
+          <button onClick={this.handleClick}> &larr;</button>
+          </div>
+        )
     
 
     const renderButton = (
@@ -67,6 +87,7 @@ export default class ColorChange extends Component {
 
     <div className='color-switch-container-closed'>
       {this.state.showButton ? renderButton : ''}
+      {this.state.showColors ? circles : ''}
     </div>
 
     )
