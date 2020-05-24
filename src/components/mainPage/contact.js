@@ -4,6 +4,8 @@ import Fade from 'react-reveal/Fade';
 
 class Contact extends Component {
 
+  
+
   render() {
     
     return (
