@@ -20,6 +20,10 @@ export default class ColorChange extends Component {
       }));
     }
 
+    changeColor = (key) => {
+      document.body.classList.add(key)
+    }
+
     // changeColor = (color, color2) => {
     //   document.body.style.backgroundColor = color
     //   document.body.style.color = color2
