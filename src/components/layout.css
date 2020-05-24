@@ -100,6 +100,16 @@ body {
   width: 70%;
 }
 
+.color-switch-container-closed {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 20%;
+  z-index: 2px;
+}
+
 .color-circle {
  height: 25px;
  width: 25px;

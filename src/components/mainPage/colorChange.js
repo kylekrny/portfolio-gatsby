@@ -10,9 +10,7 @@ export default class ColorChange extends Component {
     const changeColor = (color, color2) => {
       document.body.style.backgroundColor = color
       document.body.style.color = color2
-    
-    
-    
+
     }
 
     const renderCircles = () => {
@@ -36,8 +34,21 @@ export default class ColorChange extends Component {
           </div>
         )
       }
+
+    const renderButton = () => {
+
+      return (
+        <div className='color-switch-container-closed'>
+          Color
+          </div>
+      )
+    }
     
+
     return (
+      <>
+        {renderButton()}
+      </>
 
     )
   }

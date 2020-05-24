@@ -7,6 +7,7 @@ import Fade from 'react-reveal/Fade';
 import ReactGA from 'react-ga';
 import About from "../components/mainPage/about"
 import Brief from "../components/mainPage/brief"
+import ColorChange from '../components/mainPage/colorChange'
 import Work from "../components/mainPage/work"
 // import Contact from '../components/mainPage/contact'
 // import Skills from '../components/mainPage/skills'
@@ -14,15 +15,6 @@ import Work from "../components/mainPage/work"
 
 
 ReactGA.initialize('UA-164183008-1');
-
-
-
-
-
-
-
-
-
 
 
 const IndexPage = () => (
@@ -40,6 +32,7 @@ const IndexPage = () => (
         <Brief/>
         <About/>
         <Work/>
+        <ColorChange/>
         {/* <Skills/>
         <Contact/> */}
     </div>
