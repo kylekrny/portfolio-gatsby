@@ -2,7 +2,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Menu from './mainPage/menu'
-import Footer from "../components/mainPage/footer"
+// import Footer from "../components/mainPage/footer"
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {faEnvelope} from '@fortawesome/free-regular-svg-icons'
 import { faInstagram, faGithub, faBehance } from '@fortawesome/free-brands-svg-icons'

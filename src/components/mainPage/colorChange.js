@@ -9,8 +9,24 @@ export default class ColorChange extends Component {
     this.state = {
       showColors: false,
       showButton: true,
+      colorActive : false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.toggleClass = this.toggleClass.bind(this)
+  }
+
+
+  toggleClass(id) {
+    let active = document.getElementsByClassName('color-circle-active')
+    for (let i = 0; i < active.length; i++ ) {
+      active[i].classList.remove('color-circle-active')
+
+    }
+    let newActive = document.getElementById(id)
+ 
+      newActive.classList.add('color-circle-active')
+
+    
   }
 
     handleClick() {
@@ -20,11 +36,26 @@ export default class ColorChange extends Component {
       }));
     }
 
+    changeColor = (key) => {
+      document.body.className = key
+    }
+
     // changeColor = (color, color2) => {
     //   document.body.style.backgroundColor = color
     //   document.body.style.color = color2
 
     // }
+
+    renderColors = () => {
+      const classes = ['body-white', 'body-blue', 'body-black', 'body-red', 'body-turqoise', 'body-pink', 'body-green']
+      const circles = []
+
+      for (let i = 0; i < classes.length; i++) {
+        circles.push(<span className={'color-circle ' + classes[i]} id={classes[i]} onClick={() => this.changeColor(classes[i]) + this.toggleClass(classes[i])}></span>)
+      }
+
+      return circles
+    }
 
     // renderCircles = () => {
     //   const colors = ['rgb(239, 233, 244)', 'rgb(165, 195, 247)', 'rgb(36, 35, 37)', '#D2302C', '#358597', '#F4B5B7', '#132A13']
@@ -46,15 +77,16 @@ export default class ColorChange extends Component {
 
 
     
-        // const circles = (
-        //   <div className='color-row'>
-        //   {this.circles}
-        //   </div>
-        // )
+        const circles = (
+          <div className='color-row'>
+          {this.renderColors()}
+          <button className='color-button' onClick={this.handleClick}> &larr;</button>
+          </div>
+        )
     
 
     const renderButton = (
-        <p >Color ></p>
+        <button className='color-button' onClick={this.handleClick}>Color &rarr;</button>
       )
     
     
@@ -63,6 +95,7 @@ export default class ColorChange extends Component {
 
     <div className='color-switch-container-closed'>
       {this.state.showButton ? renderButton : ''}
+      {this.state.showColors ? circles : ''}
     </div>
 
     )

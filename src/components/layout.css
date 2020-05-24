@@ -70,6 +70,47 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #EFE9F4;
 }
+.body-black {
+  background-color: #242325;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+.body-blue {
+  background-color: #A5C3F7;
+  color: #05265E;
+  border-color: #05265E;
+}
+.body-green{
+  background-color: #132A13;
+  color: #E5BE9E;
+  border-color: #E5BE9E;
+}
+
+.body-pink {
+ background-color: #F4B5B7;
+ color: #2F004F;
+ border-color: #2F004F;
+}
+
+.body-red {
+  background-color: #D2302C;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.body-turqoise {
+  background-color: #358597;
+  color: #F4A896;
+  border-color: #F4A896;
+}
+
+.body-white {
+  background-color: #EFE9F4;
+  color: #000000;
+  border-color: #000000;
+}
+
+
 #brief{
   font-family: manropeRegular;
   font-size: 85px;
@@ -94,34 +135,31 @@ body {
   font-size: 18px;
 }
 
-
-.container {
-  margin: 0 auto;
-  width: 70%;
-}
-
-.color-switch-container-closed {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  height: 25px;
-  padding: 5px 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  z-index: 2px;
+.color-button {
+  border: none;
+  text-decoration: none;
+  font-family: manropeBold;
+  background-color: transparent;
+  color: inherit;
+  font-size: 14px;
 }
 
 .color-circle {
- height: 25px;
- width: 25px;
- margin: 0 5px;
- border-radius: 50%;
- display: inline-block;
-}
-
-.color-circle-active {
-  border: 2px solid black;
-}
+  height: 25px;
+  width: 25px;
+  margin: 0 5px;
+  border-radius: 50%;
+  display: inline-block;
+ }
+ 
+ .color-circle-active {
+   border: 2px solid;
+   height: 23px;
+   width: 23px;
+   margin: 0 5px;
+   border-radius: 50%;
+   display: inline-block;
+ }
 
 
 .color-row {
@@ -131,8 +169,24 @@ body {
   align-content: center;
 }
 
-.color-dark-blue {
-  color: #05265E
+.color-switch-container-closed {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  height: 25px;
+  padding: 5px 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  z-index: 2px;
+}
+
+.color-switched-container-open {
+
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
 }
 
 div {
