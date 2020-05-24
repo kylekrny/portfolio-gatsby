@@ -54,7 +54,7 @@ export default class ColorChange extends Component {
     
 
     const renderButton = (
-        <p >Color ></p>
+        <button className='color-button' onClick={this.handleClick}>Color ></button>
       )
     
     

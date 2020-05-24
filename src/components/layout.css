@@ -111,6 +111,13 @@ body {
   z-index: 2px;
 }
 
+.color-button {
+  border: none;
+  text-decoration: none;
+  font-family: manropeBold;
+  font-size: 14px;
+}
+
 .color-circle {
  height: 25px;
  width: 25px;
