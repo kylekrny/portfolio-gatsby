@@ -16,9 +16,17 @@ export default class ColorChange extends Component {
   }
 
 
-  toggleClass() {
-    const currentState = this.state.colorActive
-    this.setState({colorActive: !currentState})
+  toggleClass(id) {
+    let active = document.getElementsByClassName('color-circle-active')
+    for (let i = 0; i < active.length; i++ ) {
+      active[i].classList.remove('color-circle-active')
+
+    }
+    let newActive = document.getElementById(id)
+ 
+      newActive.classList.add('color-circle-active')
+
+    
   }
 
     handleClick() {
@@ -43,7 +51,7 @@ export default class ColorChange extends Component {
       const circles = []
 
       for (let i = 0; i < classes.length; i++) {
-        circles.push(<span className={'color-circle ' + classes[i] } onClick={() => this.changeColor(classes[i])}></span>)
+        circles.push(<span className={'color-circle ' + classes[i]} id={classes[i]} onClick={() => this.changeColor(classes[i]) + this.toggleClass(classes[i])}></span>)
       }
 
       return circles
@@ -72,13 +80,13 @@ export default class ColorChange extends Component {
         const circles = (
           <div className='color-row'>
           {this.renderColors()}
-          <button onClick={this.handleClick}> &larr;</button>
+          <button className='color-button' onClick={this.handleClick}> &larr;</button>
           </div>
         )
     
 
     const renderButton = (
-        <button className='color-button' onClick={this.handleClick}>Color ></button>
+        <button className='color-button' onClick={this.handleClick}>Color &rarr;</button>
       )
     
     
