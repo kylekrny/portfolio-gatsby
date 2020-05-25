@@ -22,59 +22,93 @@
 
     {
       "Title": "Jones Bodywork",
-      "SubTitle": "January 2020 - Front End",
+      "Live": true,
+      "Subtitle": "Website - Front End",
+      "Completion": "November 2019",
       "URL": "https://jonesbodywork.com",
-      "Description": "Jeff Jones was a referral client looking to translate his minimalist nature and his general compassion to his clients. Jones Bodywork is a custom development project, utilizing a clean and lightweight static build.",
-      "Images": {
-        "Filename1": "jones1.jpeg",
-        "Filename2": "jones2.jpeg"
+      "Description": "A rebranding of his site, to better represnet his brand, and his commitment to his clients.",
+      "Image": {
+        "Filename": "work-02.png"
       },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
         "Back-End": [""]
       }
-    },   
-    {
-      "Title": "DP Waterer",
-      "SubTitle": "December 2019 - Front End / Back End",
-      "URL": "https://dpwaterer.com/",
-      "Description": "A Watering Post company, that I worked on under a larger firm. I was personally responsible for the various calculators, and shop logic through out the site. The site runs on Wordpress with a Woo-commerce store, and javascript calculators.",
-      "Images": {
-        "Filename1": "dpwaterer1.jpeg",
-        "Filename2": "dpwaterer2.jpeg"
-      },
-      "Technologies": {
-        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
-        "Back-End": [""]
-      }
-    },   
-    {
-      "Title": "BarnHouse Tap",
-      "SubTitle": "December 2019 - Front End / Back End",
-      "URL": "https://www.barnhousetap.com/",
-      "Description": "A local Englewood Bar with a wide array of ever changing beers, and spirits on tap. They wanted to be able to update their clients what was on tap at the moment. Built with a simple lightweight front end, and connected to a noSQL based backed for easy user manipulation of what was on tap.",
-      "Images": {
-        "Filename1": "barnhouse1.jpeg",
-        "Filename2": "barnhouse2.jpeg"
-      },
-      "Technologies": {
-        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
-        "Back-End": [""]
-      }
-    },   
+    },
     {
       "Title": "Posh Photography",
-      "SubTitle": "November, 2019 - Front End",
-      "URL": "https://hireposh.com/",
-      "Description": "A photography business, that specializes in landscape and portrait photography. They approached me with the idea to develop something simple and clean to showcase some of their best work.",
-      "Images": {
-        "Filename1": "posh1.jpeg",
-        "Filename2": "posh2.jpeg"
+      "Live": true,
+      "Subtitle": "Website - Front End",
+      "Completion": "December 2019",
+      "URL": "https://hireposh.com",
+      "Description": "Photography studio looking to showcase landscape and portrait photography.",
+      "Image": {
+        "Filename": "work-01.png"
       },
       "Technologies": {
         "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
         "Back-End": [""]
-      }
+      } 
+    },
+    {
+      "Title": "Barnhouse Tap",
+      "Live": true,
+      "Subtitle": "Website - Full Stack",
+      "Completion": "January 2019",
+      "URL": "https://barnhousetap.com",
+      "Description": "Photography studio, looking to showcase landscape and portrait photography.",
+      "Image": {
+        "Filename": "work-03.png"
+      },
+      "Technologies": {
+        "Front-End": ["Javascript", "HTML", "CSS", "Bootstrap", "PHP"],
+        "Back-End": ["Firestore"]
+      } 
+    },
+    {
+      "Title": "Ohlesport",
+      "Live": false,
+      "Subtitle": "Ecommerce - Full Stack",
+      "Completion": "June 2020",
+      "URL": "https://jonesbodywork.com",
+      "Description": "Photography studio, looking to showcase landscape and portrait photography.",
+      "Image": {
+        "Filename": "work-05.png"
+      },
+      "Technologies": {
+        "Front-End": ["PHP", "Javascript", "HTML", "CSS"],
+        "Back-End": ["Wordpress", "PHP", "WooCommerce"]
+      } 
+    },
+    {
+      "Title": "DoubleDown.io",
+      "Live": false,
+      "Subtitle": "Game - Full Stack",
+      "Completion": "June 2020",
+      "URL": "https://jonesbodywork.com",
+      "Description": "Photography studio, looking to showcase landscape and portrait photography.",
+      "Image": {
+        "Filename": "work-06.png"
+      },
+      "Technologies": {
+        "Front-End": ["React.js", "Javascript", "Bootstrap", "Restful API", "CSS", "SASS"],
+        "Back-End": ["Cloud Firestore", "Express", "Google Cloud Platform"]
+      } 
+    },
+    {
+      "Title": "Luca Project",
+      "Live": false,
+      "Subtitle": "IOS App - Full Stack",
+      "Completion": "Spring 2021",
+      "URL": "https://jonesbodywork.com",
+      "Description": "Budget app, that combines data visualization with humancentric features",
+      "Image": {
+        "Filename": "work-04.png"
+      },
+      "Technologies": {
+        "Front-End": ["Swift", "Appkit", "CloudKit"],
+        "Back-End": []
+      } 
     }
   ]
 }

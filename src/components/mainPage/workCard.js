@@ -3,65 +3,61 @@ import JSONData from '../../data/content.json'
 import Image from '../image'
 import Fade from 'react-reveal/Fade';
 
-class WorkCard extends Component {
+export default class WorkCard extends Component {
+
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      showInfo: false,
+
+    };
+    this.handleHover = this.handleHover.bind(this);
+  }
+
+  handleHover = () => {
+    this.setState(prevState => ({
+      showInfo: !prevState.showInfo,
+    }));
+
+    console.log('hover works')
+  }
+
+
+  renderWorkInfo = (data) => {
+      const liveButton = <a className='work-card-link' href={data.URL} rel="noopener noreferrer" target='_blank'>View Project</a>
+      const noLiveButton = <a className='work-card-link-inactive' href="#" onclick="return false;">Coming Soon</a>
+
+    return (
+      <div className='work-card-info-container'>
+        <h1 className='work-card-title'>{data.Title}</h1>
+        <h3 className='work-card-subtitle'>{data.Subtitle}</h3>
+        <h3 className='work-card-date'>{data.Completion}</h3>
+        {data.Live ? liveButton : noLiveButton}
+      </div>
+    )
+  }
+
+  renderImage = (data) => {
+    return(
+      <Image filename={data.Image.Filename}/>
+    )
+  }
 
 
   render() {
 
-    const sideRender = (index, type) => {
-      const indexNum = parseInt((index + 1) % 2)
-      switch(type) {
-        case 'image':
-          switch (indexNum) {
-            case 0:
-              return 'even work-image-side'
-            default:
-              return 'odd work-image-side'
-          }
-        case 'text':
-          switch (indexNum) {
-            case 0:
-              return 'even work-text-side' 
-            default:
-              return 'odd work-text-side'
-          } 
-        case 'animate':
-          switch (indexNum) {
-            case 0:
-              return 'left' 
-            default:
-              return 'right'
-          } 
-        default :
-        return
-      }
-    }
+
 
 
     return (
-      <div id='work-card-container'>
+      <div className='work-card-container'>
           {JSONData.MyWorkContent.map((data, index) => {
       return (
-       <div className="work-card">
-          <div index={index} className={sideRender(index, 'image')}>
-            <Fade delay={200}>
-              <div className="image-container1">
-                <Image filename={data.Images.Filename1}/>
-              </div>
-              <div className="image-container2">
-                <Image filename={data.Images.Filename2}/>
-              </div>
-            </Fade>
-          </div>
-          <Fade delay={200}>
-            <div className={sideRender(index, 'text')}>
-                  <p className='work-card-title'><a href={data.URL}>{data.Title}</a></p>
-                  <p className= 'work-card-subtitle'>{data.SubTitle}</p>
-                  <p className='work-card-description'>{data.Description}</p>
-            </div>
-          </Fade>
-        </div>
+        <div className="work-card" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} style={{backgroundImage: `url(/${data.Image.Filename})`}}>
+            {this.state.showInfo ? this.renderWorkInfo(data) : ''}
 
+        </div>
       )})}
 
       </div>
@@ -69,4 +65,4 @@ class WorkCard extends Component {
   }
 };
 
-export default WorkCard
+
