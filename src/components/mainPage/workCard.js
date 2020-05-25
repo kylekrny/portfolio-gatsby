@@ -19,6 +19,8 @@ export default class WorkCard extends Component {
     this.setState(prevState => ({
       showInfo: !prevState.showInfo,
     }));
+
+    console.log('hover works')
   }
 
 
@@ -52,8 +54,9 @@ export default class WorkCard extends Component {
       <div className='work-card-container'>
           {JSONData.MyWorkContent.map((data, index) => {
       return (
-        <div className="work-card" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
-          {this.renderImage(data)}
+        <div className="work-card" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} style={{backgroundImage: `url(/${data.Image.Filename})`}}>
+            {this.state.showInfo ? this.renderWorkInfo(data) : ''}
+
         </div>
       )})}
 
