@@ -31,7 +31,6 @@ export default class WorkCard extends Component {
         <h1 className='work-card-title'>{data.Title}</h1>
         <h3 className='work-card-subtitle'>{data.Subtitle}</h3>
         <h3 className='work-card-date'>{data.Completion}</h3>
-        <p className='work-card-description'>{data.Description}</p>
         {data.Live ? liveButton : noLiveButton}
       </div>
     )
@@ -53,8 +52,8 @@ export default class WorkCard extends Component {
       <div className='work-card-container'>
           {JSONData.MyWorkContent.map((data, index) => {
       return (
-        <div className="work-card" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} style={{backgroundImage: 'url(./../../images/work-01.png)'}}>
-         
+        <div className="work-card" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}>
+          {this.renderImage(data)}
         </div>
       )})}
 
