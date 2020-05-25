@@ -22,7 +22,8 @@
 
     {
       "Title": "Jones Bodywork",
-      "SubTitle": "Website - Front End",
+      "Live": true,
+      "Subtitle": "Website - Front End",
       "Completion": "November 2019",
       "URL": "https://jonesbodywork.com",
       "Description": "A rebranding of his site, to better represnet his brand, and his commitment to his clients.",
@@ -36,7 +37,8 @@
     },
     {
       "Title": "Posh Photography",
-      "SubTitle": "Website - Front End",
+      "Live": true,
+      "Subtitle": "Website - Front End",
       "Completion": "December 2019",
       "URL": "https://hireposh.com",
       "Description": "Photography studio looking to showcase landscape and portrait photography.",
@@ -50,7 +52,8 @@
     },
     {
       "Title": "Barnhouse Tap",
-      "SubTitle": "Website - Full Stack",
+      "Live": true,
+      "Subtitle": "Website - Full Stack",
       "Completion": "January 2019",
       "URL": "https://barnhousetap.com",
       "Description": "Photography studio, looking to showcase landscape and portrait photography.",
@@ -64,7 +67,8 @@
     },
     {
       "Title": "Ohlesport",
-      "SubTitle": "Ecommerce - Full Stack",
+      "Live": false,
+      "Subtitle": "Ecommerce - Full Stack",
       "Completion": "June 2020",
       "URL": "https://jonesbodywork.com",
       "Description": "Photography studio, looking to showcase landscape and portrait photography.",
@@ -78,7 +82,8 @@
     },
     {
       "Title": "DoubleDown.io",
-      "SubTitle": "Game - Full Stack",
+      "Live": false,
+      "Subtitle": "Game - Full Stack",
       "Completion": "June 2020",
       "URL": "https://jonesbodywork.com",
       "Description": "Photography studio, looking to showcase landscape and portrait photography.",
@@ -92,7 +97,8 @@
     },
     {
       "Title": "Luca Project",
-      "SubTitle": "IOS App - Full Stack",
+      "Live": false,
+      "Subtitle": "IOS App - Full Stack",
       "Completion": "Spring 2021",
       "URL": "https://jonesbodywork.com",
       "Description": "Budget app, that combines data visualization with humancentric features",
