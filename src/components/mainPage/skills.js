@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import FilterRow from './skills/filterRow'
+import SkillDisplay from './skills/skillDisplay'
 
 
 export default class Skills extends Component {
@@ -12,6 +13,7 @@ export default class Skills extends Component {
         <h5 className='title-small skills-title'>To pay the bills</h5>
         <div className="skill-filter-container">
           <FilterRow/>
+          <SkillDisplay/>
         </div>
       </div>
     )
