@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import SkillDisplay from './skills/skillDisplay'
 
 
-class Skills extends Component {
+export default class Skills extends Component {
 
   render() {
     
@@ -9,9 +10,12 @@ class Skills extends Component {
       <div id="skills">
         <h5 className='title-large skills-title'>Skills</h5>
         <h5 className='title-small skills-title'>To pay the bills</h5>
+    
+          <SkillDisplay/>
+
       </div>
     )
   }
 };
 
-export default Skills
+

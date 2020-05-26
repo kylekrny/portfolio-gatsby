@@ -110,5 +110,277 @@
         "Back-End": []
       } 
     }
+  ],
+  "Skills": [
+      {
+        "Type": "Front End",
+        "Children": [
+          {
+            "Title": "Javascript",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "React",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Vue",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Angular",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Ajax",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "RESTful API",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "HTML",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "CSS",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "SASS",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Webpack",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          }
+        ]
+      },
+      {
+        "Type": "Back End",
+        "Children": [
+          {
+            "Title": "Node",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Express",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "PostgreSQL",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "PHP",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "MongoDB",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "AWS",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Google Cloud",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "MySQL",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          }
+        ]
+      },
+      {
+        "Type": "Dev Ops",
+        "Children": [
+          {
+            "Title": "Github",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "BitBucket",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Slack",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Agile",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "SCRUM",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Trello",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Docker",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Puppet",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          }
+        ]
+      },
+      {
+        "Type": "Design",
+        "Children": [
+          {
+            "Title": "Illustrator",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Photoshop",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Indesign",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "XD",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "User Experience",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "User Interface",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Color Theory",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Typography",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          }
+        ]
+      },
+      {
+        "Type": "Soft Skills",
+        "Children": [
+          {
+            "Title": "Creativity",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Time Management",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Leadership",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Communication",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Pragmatic",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Detail oriented",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Entrepeneurial",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Self aware",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          }
+        ]
+      },
+      {
+        "Type": "Still Installing",
+        "Children": [
+          {
+            "Title": "Penmanship",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Spanish",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Swift",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Django",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Python",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          },
+          {
+            "Title": "Calculus",
+            "logoUrl": "fake url",
+            "logoAlt": "Javascript Logo"
+          }
+        ]
+      } 
   ]
 }

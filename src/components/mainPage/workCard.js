@@ -26,10 +26,10 @@ export default class WorkCard extends Component {
 
   renderWorkInfo = (data) => {
       const liveButton = <a className='work-card-link' href={data.URL} rel="noopener noreferrer" target='_blank'>View Project</a>
-      const noLiveButton = <a className='work-card-link-inactive' href="#" onclick="return false;">Coming Soon</a>
+      const noLiveButton = <a className='work-card-link-inactive' href="#">Coming Soon</a>
 
     return (
-      <div className='work-card-info-container'>
+      <div className='work-card-info-container' key={data.Title}>
         <h1 className='work-card-title'>{data.Title}</h1>
         <h3 className='work-card-subtitle'>{data.Subtitle}</h3>
         <h3 className='work-card-date'>{data.Completion}</h3>

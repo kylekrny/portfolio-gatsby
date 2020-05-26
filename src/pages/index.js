@@ -10,8 +10,8 @@ import Brief from "../components/mainPage/brief"
 import ColorChange from '../components/mainPage/colorChange'
 import Work from "../components/mainPage/work"
 // import Contact from '../components/mainPage/contact'
-// import Skills from '../components/mainPage/skills'
-// import Skills from "../components/skills"
+import Skills from '../components/mainPage/skills'
+
 
 
 ReactGA.initialize('UA-164183008-1');
@@ -33,8 +33,8 @@ const IndexPage = () => (
         <About/>
         <Work/>
         <ColorChange/>
-        {/* <Skills/>
-        <Contact/> */}
+        <Skills/>
+        {/* <Contact/> */}
     </div>
   </Layout>
 )
