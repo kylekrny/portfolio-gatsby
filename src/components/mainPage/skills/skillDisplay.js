@@ -17,29 +17,16 @@ export default class SkillDisplay extends Component {
     this.setState({ activeOption });
   }
 
-  // renderSkills(data) {
-  //   data.Children.map((data,index) => {
-  //     <h6 class='skill-display-item'>{data.Title}</h6>
-      
-  //   })
-  // }
-
-  handleFilter(option) {
-    switch (option) {
-        case 'Front End':
-          return
-        case 'Back End':
-          return 
-        case 'Dev Ops':
-          return
-        case 'Design':
-          return
-        case 'Soft Skills':
-          return
-        case 'Still Installing':
-          return
-    }
+  renderSkills(activeOption) {
+    activeOption.Children.map(data => {
+      return(
+        <div className='skill-card'>
+          <h6>{data.Title}</h6>
+        </div>
+      )
+    })
   }
+
 
   renderFilters(data, activeOption) {
     return(
@@ -65,7 +52,13 @@ export default class SkillDisplay extends Component {
       <>
         {this.renderFilters(data, activeOption)}
       <div id="skill-display-container">
- 
+            {activeOption.Children.map(data => {
+      return(
+        <div className='skill-card'>
+          <h6>{data.Title}</h6>
+        </div>
+      )
+    })}
         
       </div>
       </>
