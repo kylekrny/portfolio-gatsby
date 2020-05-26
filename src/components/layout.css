@@ -670,16 +670,19 @@ text-align: center;
 .work-card-barnhouse {
   background-color: #979dAC;
   color: #FFFFFF;
+  font-family: barnhouse;
 }
 
 .work-card-double-down {
   background-color: #14213D;
   color: #FCA311;
+  font-family: doubleDown;
 }
 
 .work-card-jeff {
   background-color: #3D5A80;
   color: #FFFFFF;
+  font-family: manropeExtraBold;
 }
 .work-card-luca {
   background-color: #A8DADC;
@@ -694,6 +697,7 @@ text-align: center;
 .work-card-posh {
   background-color: #FFB4A2;
   color: #FFFFFF;
+  font-family: posh;
 }
 
 
