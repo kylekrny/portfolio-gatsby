@@ -39,24 +39,26 @@
 
 @font-face {
   font-family: posh;
-  src: url(../fonts/Photograph\ Signature.ttf);
+  src: url(../fonts/PhotographSignature.ttf);
 }
 
 @font-face {
   font-family: barnhouse;
-  src: url(../fonts/Chunkfive\ Ex.ttf);
+  src: url(../fonts/ChunkfiveEx.ttf);
 }
 
-@font-face {
+/* TODO: NEED TO FIGURE OUT Didot Font and Savoye Font Alternative */
+
+/* @font-face {
   font-family: luca;
   src: url(../fonts/Didot.ttc);
 }
 
 @font-face {
   font-family: ohle;
-  src: url(../fonts/Savoye\ LET.ttc);
+  src: url(../fonts/SavoyeLET.ttc);
 
-}
+} */
 
 html {
   font-family: sans-serif;
