@@ -523,6 +523,37 @@ margin-bottom: 50px;
   border-radius: 25px;
 }
 
+.skill-filter {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 60%;
+
+}
+
+.skill-filter-item {
+  font-family: manropeRegular;
+}
+
+.skill-filter-item-active {
+  font-family: manropeBold;
+}
+
+.skill-filter-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+#skills{
+  margin-top: 60px;
+}
+
+.skills-title {
+  text-align: center;
+}
+
 .social-icon {
   font-size: 20px;
   margin: 10px 20px;
