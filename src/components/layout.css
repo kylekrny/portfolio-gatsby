@@ -667,12 +667,35 @@ text-align: center;
   background-size: cover;
 }
 
-.work-card-barnhouse {}
-.work-card-double-down {}
-.work-card-jeff {}
-.work-card-luca {}
-.work-card-ohle {}
-.work-card-posh {}
+.work-card-barnhouse {
+  background-color: #979dAC;
+  color: #FFFFFF;
+}
+
+.work-card-double-down {
+  background-color: #14213D;
+  color: #FCA311;
+}
+
+.work-card-jeff {
+  background-color: #3D5A80;
+  color: #FFFFFF;
+}
+.work-card-luca {
+  background-color: #A8DADC;
+  color: #1D3557;
+}
+
+.work-card-ohle {
+  background-color: #D2302C;
+  color: #FFFFFF;
+}
+
+.work-card-posh {
+  background-color: #FFB4A2;
+  color: #FFFFFF;
+}
+
 
 .work-card-container {
   margin: 0 auto;
