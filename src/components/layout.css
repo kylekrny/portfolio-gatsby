@@ -1,3 +1,63 @@
+@font-face {
+  font-family: ManropeExtraLight;
+  src: url(../fonts/web/Manrope-ExtraLight.woff2);
+}
+
+@font-face {
+  font-family: manropeLight;
+  src: url(../fonts/web/Manrope-Light.woff2);
+}
+
+@font-face {
+  font-family: manropeRegular;
+  src: url(../fonts/web/Manrope-Regular.woff2);
+}
+@font-face {
+  font-family: manropeMedium;
+  src: url(../fonts/web/Manrope-Medium.woff2);
+}
+
+@font-face {
+  font-family: manropeSemiBold;
+  src: url(../fonts/web/Manrope-SemiBold.woff2);
+}
+
+@font-face {
+  font-family: manropeBold;
+  src: url(../fonts/web/Manrope-Bold.woff2);
+}
+
+@font-face {
+  font-family: manropeExtraBold;
+  src: url(../fonts/web/Manrope-ExtraBold.woff2);
+}
+
+@font-face {
+  font-family: doubleDown;
+  src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+  font-family: posh;
+  src: url(../fonts/Photograph\ Signature.ttf);
+}
+
+@font-face {
+  font-family: barnhouse;
+  src: url(../fonts/Chunkfive\ Ex.ttf);
+}
+
+@font-face {
+  font-family: luca;
+  src: url(../fonts/Didot.ttc);
+}
+
+@font-face {
+  font-family: ohle;
+  src: url(../fonts/Savoye\ LET.ttc);
+
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -250,39 +310,7 @@ div {
   margin-left: 0;
 }
 
-@font-face {
-  font-family: ManropeExtraLight;
-  src: url(../fonts/web/Manrope-ExtraLight.woff2);
-}
 
-@font-face {
-  font-family: manropeLight;
-  src: url(../fonts/web/Manrope-Light.woff2);
-}
-
-@font-face {
-  font-family: manropeRegular;
-  src: url(../fonts/web/Manrope-Regular.woff2);
-}
-@font-face {
-  font-family: manropeMedium;
-  src: url(../fonts/web/Manrope-Medium.woff2);
-}
-
-@font-face {
-  font-family: manropeSemiBold;
-  src: url(../fonts/web/Manrope-SemiBold.woff2);
-}
-
-@font-face {
-  font-family: manropeBold;
-  src: url(../fonts/web/Manrope-Bold.woff2);
-}
-
-@font-face {
-  font-family: manropeExtraBold;
-  src: url(../fonts/web/Manrope-ExtraBold.woff2);
-}
 
 #footer {
 width: 90%;
@@ -523,6 +551,26 @@ margin-bottom: 50px;
   border-radius: 25px;
 }
 
+.skill-card{
+  height: 200px;
+  width: 200px;
+  margin: 25px;
+}
+
+.skill-card-title {
+  text-align: center;
+  font-size: 15px;
+}
+
+.skill-display-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .skill-filter {
   list-style-type: none;
   display: flex;
@@ -540,6 +588,7 @@ margin-bottom: 50px;
   font-size: 15px;
   margin: 10px 15px;
   width: 100%;
+  color: inherit;
   
 }
 
@@ -615,6 +664,13 @@ text-align: center;
   background-position: center;
   background-size: cover;
 }
+
+.work-card-barnhouse {}
+.work-card-double-down {}
+.work-card-jeff {}
+.work-card-luca {}
+.work-card-ohle {}
+.work-card-posh {}
 
 .work-card-container {
   margin: 0 auto;

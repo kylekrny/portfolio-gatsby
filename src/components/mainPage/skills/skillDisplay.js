@@ -51,11 +51,11 @@ export default class SkillDisplay extends Component {
     return (
       <>
         {this.renderFilters(data, activeOption)}
-      <div id="skill-display-container">
+      <div className="skill-display-container">
             {activeOption.Children.map(data => {
       return(
         <div className='skill-card'>
-          <h6>{data.Title}</h6>
+          <h6 className='skill-card-title'>{data.Title}</h6>
         </div>
       )
     })}
