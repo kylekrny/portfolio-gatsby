@@ -7,7 +7,7 @@ export default class SkillDisplay extends Component {
     super(props);
 
     this.state = {
-      activeOption: JSONData.Skills[0].Type
+      activeOption: JSONData.Skills[0]
     };
 
     this.handleFilterClick = this.handleFilterClick.bind(this);
@@ -17,9 +17,12 @@ export default class SkillDisplay extends Component {
     this.setState({ activeOption });
   }
 
-  renderSkills(data) {
-
-  }
+  // renderSkills(data) {
+  //   data.Children.map((data,index) => {
+  //     <h6 class='skill-display-item'>{data.Title}</h6>
+      
+  //   })
+  // }
 
   handleFilter(option) {
     switch (option) {
@@ -29,6 +32,8 @@ export default class SkillDisplay extends Component {
           return 
         case 'Dev Ops':
           return
+        case 'Design':
+          return
         case 'Soft Skills':
           return
         case 'Still Installing':
@@ -36,22 +41,34 @@ export default class SkillDisplay extends Component {
     }
   }
 
-
+  renderFilters(data, activeOption) {
+    return(
+      <>
+        <ul className='skill-filter'>
+          {data.map(data => {
+            return (
+            <li key={data.Type}><button className={`${activeOption.Type === data.Type? "skill-active" : ""} skill-filter-item`} onClick={() => this.handleFilterClick(data)}>{data.Type}</button></li>
+            )
+          })}
+        </ul>
+      </>
+    )
+  }
 
 
   render() {
-
+    const { activeOption } = this.state;
+    const data = JSONData.Skills
     
     
     return (
+      <>
+        {this.renderFilters(data, activeOption)}
       <div id="skill-display-container">
-        {JSONData.Skills[0].Children.map((data, index) => {
-          return (
-          <p>{data.Title}</p>
-          )
-        })}
+ 
         
       </div>
+      </>
+    
     )
-  }
-};
+}};
