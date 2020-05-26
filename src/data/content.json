@@ -164,7 +164,7 @@
             "Title": "Webpack",
             "logoUrl": "fake url",
             "logoAlt": "Javascript Logo"
-          },
+          }
         ]
       },
       {
@@ -381,7 +381,6 @@
             "logoAlt": "Javascript Logo"
           }
         ]
-      }
-      
+      } 
   ]
 }
