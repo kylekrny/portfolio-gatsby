@@ -667,6 +667,10 @@ text-align: center;
   background-size: cover;
 }
 
+.work-card-logo {
+  text-align: center;
+}
+
 .work-card-barnhouse {
   background-color: #979dAC;
   color: #FFFFFF;
@@ -698,6 +702,8 @@ text-align: center;
   background-color: #FFB4A2;
   color: #FFFFFF;
   font-family: posh;
+  font-size: 60px;
+  font-weight: 200;
 }
 
 
