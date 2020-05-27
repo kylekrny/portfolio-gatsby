@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import JSONData from '../../../data/content.json'
+import Image from '../../image'
 
 export default class SkillDisplay extends Component {
 
@@ -55,6 +56,9 @@ export default class SkillDisplay extends Component {
             {activeOption.Children.map(data => {
       return(
         <div className='skill-card'>
+          <div className="skill-logo-container">
+            <Image filename={data.LogoUrl}/>
+          </div>
           <h6 className='skill-card-title'>{data.Title}</h6>
         </div>
       )
