@@ -557,6 +557,8 @@ margin-bottom: 50px;
   height: 200px;
   width: 200px;
   margin: 25px;
+  padding-top: 25px;
+
 }
 
 .skill-card-title {
@@ -569,16 +571,19 @@ margin-bottom: 50px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
+  height: 600px;
+  align-content: center;
 }
 
 .skill-filter {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  width: 60%;
+  padding: 0px;
+  width: 100%;
+  justify-content: center;
 
 }
 
@@ -592,6 +597,12 @@ margin-bottom: 50px;
   width: 100%;
   color: inherit;
   
+}
+
+.skill-logo-container {
+  height: 150px;
+  width: 150px;
+  margin: 10px auto;
 }
 
 .skill-active {
@@ -623,11 +634,19 @@ width: 100%;
 text-align: center;
 }
 
+.skills-title-small {
+  font-size: 50px;
+  margin-top: -40px;
+  margin-bottom: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+}
+
 .title-small {
   font-size: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 
 .title-large {
