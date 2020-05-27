@@ -123,53 +123,48 @@
         "Children": [
           {
             "Title": "Javascript",
-            "logoUrl": "fake url",
+            "logoUrl": "skills_js.png",
             "logoAlt": "Javascript Logo"
           },
           {
             "Title": "React",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_react.png",
+            "logoAlt": "React Logo"
           },
           {
             "Title": "Vue",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_vue.png",
+            "logoAlt": "Vue Logo"
           },
           {
             "Title": "Angular",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_angular.png",
+            "logoAlt": "Angular Logo"
           },
           {
-            "Title": "Ajax",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "RESTful API",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "Title": "API",
+            "logoUrl": "skills_api.png",
+            "logoAlt": "API Logo"
           },
           {
             "Title": "HTML",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_html.png",
+            "logoAlt": "HTML Logo"
           },
           {
             "Title": "CSS",
-            "logoUrl": "fake url",
+            "logoUrl": "skills_css.png",
             "logoAlt": "Javascript Logo"
           },
           {
             "Title": "SASS",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_sass.png",
+            "logoAlt": "SASS Logo"
           },
           {
             "Title": "Webpack",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_webpack.png",
+            "logoAlt": "Webpack Logo"
           }
         ]
       },
@@ -178,43 +173,43 @@
         "Children": [
           {
             "Title": "Node",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_node.jpg",
+            "logoAlt": "Node Logo"
           },
           {
-            "Title": "Express",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "Title": "Laravel",
+            "logoUrl": "skills_laravel.png",
+            "logoAlt": "Laravel Logo"
           },
           {
-            "Title": "PostgreSQL",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "Title": "My SQL",
+            "logoUrl": "skills_sql.png",
+            "logoAlt": "MY SQL Logo"
           },
           {
             "Title": "PHP",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_php.png",
+            "logoAlt": "PHP Logo"
           },
           {
             "Title": "MongoDB",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_mongo.png",
+            "logoAlt": "MongoDB Logo"
           },
           {
             "Title": "AWS",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_aws.png",
+            "logoAlt": "AWS Logo"
           },
           {
             "Title": "Google Cloud",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_google.png",
+            "logoAlt": "Google Cloud Platform Logo"
           },
           {
-            "Title": "MySQL",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "Title": "Mamp",
+            "logoUrl": "skills_mamp.png",
+            "logoAlt": "MAMP Logo"
           }
         ]
       },
@@ -223,43 +218,28 @@
         "Children": [
           {
             "Title": "Github",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_github.png",
+            "logoAlt": "Github Logo"
           },
           {
             "Title": "BitBucket",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_bitbucket.png",
+            "logoAlt": "BitBucket Logo"
           },
           {
-            "Title": "Slack",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Agile",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "SCRUM",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "Title": "Mocha",
+            "logoUrl": "skills_mocha.png",
+            "logoAlt": "Mocha Logo"
           },
           {
             "Title": "Trello",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_trello.png",
+            "logoAlt": "Trello Logo"
           },
           {
             "Title": "Docker",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Puppet",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_docker.png",
+            "logoAlt": "Docker Logo"
           }
         ]
       },
@@ -268,43 +248,43 @@
         "Children": [
           {
             "Title": "Illustrator",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_ai.png",
+            "logoAlt": "Adobe Illustrator Logo"
           },
           {
             "Title": "Photoshop",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_ps.png",
+            "logoAlt": "Adobe Photoshop Logo"
           },
           {
             "Title": "Indesign",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_id.png",
+            "logoAlt": "Adobe Indesign Logo"
           },
           {
             "Title": "XD",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_xd.png",
+            "logoAlt": "Adobe XD Logo"
           },
           {
             "Title": "User Experience",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_ux.png",
+            "logoAlt": "User Experience Logo"
           },
           {
             "Title": "User Interface",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_ui.png",
+            "logoAlt": "User Interface Logo"
           },
           {
             "Title": "Color Theory",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_color.png",
+            "logoAlt": "Color Wheel"
           },
           {
             "Title": "Typography",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_typography.png",
+            "logoAlt": "Typography Logo"
           }
         ]
       },
@@ -313,33 +293,23 @@
         "Children": [
           {
             "Title": "Penmanship",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_penmanship.png",
+            "logoAlt": "Penmanship Logo"
           },
           {
             "Title": "Spanish",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_spanish.png",
+            "logoAlt": "Spanish Logo"
           },
           {
             "Title": "Swift",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Django",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_swift.png",
+            "logoAlt": "Swift Logo"
           },
           {
             "Title": "Python",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Calculus",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
+            "logoUrl": "skills_python.png",
+            "logoAlt": "Python Logo"
           }
         ]
       } 
