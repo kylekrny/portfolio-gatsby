@@ -39,24 +39,26 @@
 
 @font-face {
   font-family: posh;
-  src: url(../fonts/Photograph\ Signature.ttf);
+  src: url(../fonts/PhotographSignature.ttf);
 }
 
 @font-face {
   font-family: barnhouse;
-  src: url(../fonts/Chunkfive\ Ex.ttf);
+  src: url(../fonts/ChunkfiveEx.ttf);
 }
 
-@font-face {
+/* TODO: NEED TO FIGURE OUT Didot Font and Savoye Font Alternative */
+
+/* @font-face {
   font-family: luca;
   src: url(../fonts/Didot.ttc);
 }
 
 @font-face {
   font-family: ohle;
-  src: url(../fonts/Savoye\ LET.ttc);
+  src: url(../fonts/SavoyeLET.ttc);
 
-}
+} */
 
 html {
   font-family: sans-serif;
@@ -665,12 +667,45 @@ text-align: center;
   background-size: cover;
 }
 
-.work-card-barnhouse {}
-.work-card-double-down {}
-.work-card-jeff {}
-.work-card-luca {}
-.work-card-ohle {}
-.work-card-posh {}
+.work-card-logo {
+  text-align: center;
+}
+
+.work-card-barnhouse {
+  background-color: #979dAC;
+  color: #FFFFFF;
+  font-family: barnhouse;
+}
+
+.work-card-double-down {
+  background-color: #14213D;
+  color: #FCA311;
+  font-family: doubleDown;
+}
+
+.work-card-jeff {
+  background-color: #3D5A80;
+  color: #FFFFFF;
+  font-family: manropeExtraBold;
+}
+.work-card-luca {
+  background-color: #A8DADC;
+  color: #1D3557;
+}
+
+.work-card-ohle {
+  background-color: #D2302C;
+  color: #FFFFFF;
+}
+
+.work-card-posh {
+  background-color: #FFB4A2;
+  color: #FFFFFF;
+  font-family: posh;
+  font-size: 60px;
+  font-weight: 200;
+}
+
 
 .work-card-container {
   margin: 0 auto;
