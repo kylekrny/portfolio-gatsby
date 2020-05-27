@@ -309,51 +309,6 @@
         ]
       },
       {
-        "Type": "Soft Skills",
-        "Children": [
-          {
-            "Title": "Creativity",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Time Management",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Leadership",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Communication",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Pragmatic",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Detail oriented",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Entrepeneurial",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          },
-          {
-            "Title": "Self aware",
-            "logoUrl": "fake url",
-            "logoAlt": "Javascript Logo"
-          }
-        ]
-      },
-      {
         "Type": "Still Installing",
         "Children": [
           {
