@@ -3,5 +3,5 @@
   Personal Portfolio
 </h1>
 <p align="center">
-My personal portfolio built using Gatsby.js. You can view the project at https://kyleswork.com
+My personal portfolio built using Gatsby.js. You can view the live version at https://kyleswork.com
 </p>
