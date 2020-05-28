@@ -18,7 +18,7 @@ class About extends Component {
         <div className="about-body">
           <Fade delay={400}>
           <div id="about-image-container">
-            <Image filename='IMG_6871.jpeg'/>
+            <Image filename='IMG_8847.jpg'/>
           </div>
           </Fade>
           <div id="about-text-container">

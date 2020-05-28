@@ -39,26 +39,23 @@
 
 @font-face {
   font-family: posh;
-  src: url(../fonts/PhotographSignature.ttf);
+  src: url(../fonts/Jannet.otf);
 }
 
 @font-face {
   font-family: barnhouse;
-  src: url(../fonts/ChunkfiveEx.ttf);
+  src: url(../fonts/Lazer84.ttf);
 }
 
-/* TODO: NEED TO FIGURE OUT Didot Font and Savoye Font Alternative */
+@import url(//db.onlinewebfonts.com/c/251039e6849ad977a8bfc40b564dce89?family=Didot);
 
-/* @font-face {
-  font-family: luca;
-  src: url(../fonts/Didot.ttc);
-}
+
 
 @font-face {
   font-family: ohle;
-  src: url(../fonts/SavoyeLET.ttc);
+  src: url(../fonts/Savoye\ LET\ Plain1.0.woff);
 
-} */
+}
 
 html {
   font-family: sans-serif;
@@ -94,12 +91,15 @@ a {
   margin-bottom: 80px;
   text-align: center;
   letter-spacing: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
 #about-image-container {
   width: 50%;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: -50px;
+  height: 100%;
  
 }
 
@@ -122,6 +122,8 @@ a {
   width: 52%;
   padding-top: 0;
 }
+
+
 
 body {
   padding: 0;
@@ -432,7 +434,7 @@ position: relative;
   margin-bottom: 0px;
   padding-bottom: 0px;
   text-align: center;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   
 }
 
@@ -447,7 +449,7 @@ position: relative;
   margin-bottom: 0px;
   margin-top: -40px;
   text-align: center;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes slide-in {}
@@ -558,6 +560,7 @@ margin-bottom: 50px;
   width: 200px;
   margin: 25px;
   padding-top: 25px;
+  
 
 }
 
@@ -603,6 +606,8 @@ margin-bottom: 50px;
   height: 150px;
   width: 150px;
   margin: 10px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
 }
 
 .skill-active {
@@ -684,37 +689,73 @@ text-align: center;
   padding: 0px 0px;
   background-position: center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .work-card-logo {
   text-align: center;
 }
 
+.work-card-link {
+  letter-spacing: 0px;
+}
+
 .work-card-barnhouse {
-  background-color: #979dAC;
-  color: #FFFFFF;
+  background-color: #84a98c;
+  color: #cad2c5;
   font-family: barnhouse;
+  font-size: 43px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 2px;
 }
 
 .work-card-double-down {
   background-color: #14213D;
   color: #FCA311;
   font-family: doubleDown;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.double-script {
+  -webkit-text-stroke-width: .25px;
+  -webkit-text-stroke-color: #FCA311;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 20px;
+  margin-right: -20px;
 }
 
 .work-card-jeff {
-  background-color: #3D5A80;
-  color: #FFFFFF;
+  background-color: #1985a1;
+  color: #dcdcdd;
   font-family: manropeExtraBold;
+  font-size: 160px;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.4);
 }
 .work-card-luca {
   background-color: #A8DADC;
   color: #1D3557;
+  font-family: didot;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 15px;
+  margin-right: -15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .work-card-ohle {
   background-color: #D2302C;
   color: #FFFFFF;
+  font-family: futura;
+  font-size: 33px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+.ohle-script {
+  font-family: ohle;
 }
 
 .work-card-posh {
@@ -723,6 +764,7 @@ text-align: center;
   font-family: posh;
   font-size: 60px;
   font-weight: 200;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -799,6 +841,7 @@ text-align: center;
   margin: 10px auto;
   border: 2px solid;
   color: inherit;
+  letter-spacing: 0px;
 }
 
 .work-footer {

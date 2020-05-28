@@ -21,12 +21,12 @@
   "MyWorkContent": [
 
     {
-      "Title": "Jones Bodywork",
+      "Title": "J",
       "Class": "work-card-jeff",
       "Live": true,
       "Subtitle": "Website - Front End",
       "Completion": "November 2019",
-      "URL": "https://jonesbodywork.com",
+      "URL": "http://jonesbodywork.com",
       "Description": "A rebranding of his site, to better represnet his brand, and his commitment to his clients.",
       "Image": {
         "Filename": "work-02.png"
@@ -53,7 +53,7 @@
       } 
     },
     {
-      "Title": "Barnhouse Tap",
+      "Title": "Barn house",
       "Class": "work-card-barnhouse",
       "Live": true,
       "Subtitle": "Website - Full Stack",
@@ -69,8 +69,10 @@
       } 
     },
     {
-      "Title": "Ohlesport",
+      "Title": "Ohle",
+      "Title2": "sport",
       "Class": "work-card-ohle",
+      "Class2": "ohle-script",
       "Live": false,
       "Subtitle": "Ecommerce - Full Stack",
       "Completion": "June 2020",
@@ -85,8 +87,10 @@
       } 
     },
     {
-      "Title": "DoubleDown.io",
+      "Title": "Double ",
+      "Title2":  "  Down",
       "Class": "work-card-double-down",
+      "Class2": "double-script",
       "Live": false,
       "Subtitle": "Game - Full Stack",
       "Completion": "June 2020",
@@ -101,7 +105,7 @@
       } 
     },
     {
-      "Title": "Luca Project",
+      "Title": "Luca",
       "Class": "work-card-luca",
       "Live": false,
       "Subtitle": "IOS App - Full Stack",
