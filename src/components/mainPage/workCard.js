@@ -40,7 +40,7 @@ export default class WorkCard extends Component {
   renderLogo = (data) => {
     return (
       <div className="logo-container">
-        <h1 className='work-card-logo'>{data.Title}</h1>
+        {data.Title2 ? <h1 className='work-card-logo'>{data.Title}<span className={data.Class2}>{data.Title2}</span></h1> :  <h1 className='work-card-logo'>{data.Title}</h1>}
       </div>
     )
   }
