@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import JSONData from '../../../data/content.json'
 import Image from '../../image'
-
+import Fade from 'react-reveal/Fade';
 export default class SkillDisplay extends Component {
 
   constructor(props) {
@@ -35,7 +35,9 @@ export default class SkillDisplay extends Component {
         <ul className='skill-filter'>
           {data.map(data => {
             return (
-            <li key={data.Type}><button className={`${activeOption.Type === data.Type? "skill-active" : ""} skill-filter-item`} onClick={() => this.handleFilterClick(data)}>{data.Type}</button></li>
+              <Fade top>
+                <li key={data.Type}><button className={`${activeOption.Type === data.Type? "skill-active" : ""} skill-filter-item`} onClick={() => this.handleFilterClick(data)}>{data.Type}</button></li>
+              </Fade>
             )
           })}
         </ul>
@@ -52,6 +54,7 @@ export default class SkillDisplay extends Component {
     return (
       <>
         {this.renderFilters(data, activeOption)}
+        <Fade delay={400}>
       <div className="skill-display-container">
             {activeOption.Children.map(data => {
       return(
@@ -65,6 +68,7 @@ export default class SkillDisplay extends Component {
     })}
         
       </div>
+        </Fade>
       </>
     
     )
