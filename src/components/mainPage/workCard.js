@@ -17,19 +17,15 @@ export default class WorkCard extends Component {
   }
 
   handleEnter = () => {
-    this.setState(prevState => ({
+    this.setState( ({
       showInfo: true,
     }));
-
-    console.log('hover works')
   }
 
   handleExit = () => {
-    this.setState(prevState => ({
+    this.setState( ({
       showInfo: false,
     }));
-
-    console.log('hover works')
   }
 
 
@@ -70,7 +66,7 @@ export default class WorkCard extends Component {
       <div className='work-card-container'>
           {JSONData.MyWorkContent.map((data, index) => {
       return (
-        <div className={`${data.Class} work-card`} onMouseEnter={this.handleEnter} onMouseLeave={this.handleExit}>
+        <div className={`${data.Class} work-card`} key={index} onMouseEnter={this.handleEnter} onMouseLeave={this.handleExit}>
             {this.state.showInfo ? this.renderWorkInfo(data) : this.renderLogo(data)}
 
         </div>

@@ -32,15 +32,16 @@ export default class SkillDisplay extends Component {
   renderFilters(data, activeOption) {
     return(
       <>
-        <ul className='skill-filter'>
-          {data.map(data => {
-            return (
-              <Fade top>
-                <li key={data.Type}><button className={`${activeOption.Type === data.Type? "skill-active" : ""} skill-filter-item`} onClick={() => this.handleFilterClick(data)}>{data.Type}</button></li>
-              </Fade>
-            )
-          })}
-        </ul>
+        <Fade  top>
+          <ul className='skill-filter'>
+            {data.map(data => {
+              return (
+                
+                  <li key={data.Type}><button className={`${activeOption.Type === data.Type? "skill-active" : ""} skill-filter-item`} onClick={() => this.handleFilterClick(data)}>{data.Type}</button></li>
+                  )
+                })}
+          </ul>
+        </Fade>
       </>
     )
   }
@@ -58,7 +59,7 @@ export default class SkillDisplay extends Component {
       <div className="skill-display-container">
             {activeOption.Children.map(data => {
       return(
-        <div className='skill-card'>
+        <div className='skill-card' key={data.Title}>
           <div className="skill-logo-container">
             <Image filename={data.LogoUrl}/>
           </div>
