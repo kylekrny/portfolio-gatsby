@@ -97,7 +97,9 @@ a {
 
 #about-image-container {
   width: 50%;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: -50px;
+  height: 100%;
  
 }
 
@@ -430,7 +432,7 @@ position: relative;
   margin-bottom: 0px;
   padding-bottom: 0px;
   text-align: center;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   
 }
 
@@ -445,7 +447,7 @@ position: relative;
   margin-bottom: 0px;
   margin-top: -40px;
   text-align: center;
-
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 @keyframes slide-in {}
@@ -556,6 +558,7 @@ margin-bottom: 50px;
   width: 200px;
   margin: 25px;
   padding-top: 25px;
+  
 
 }
 
@@ -601,6 +604,8 @@ margin-bottom: 50px;
   height: 150px;
   width: 150px;
   margin: 10px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
 }
 
 .skill-active {
@@ -685,6 +690,7 @@ text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .work-card-logo {
@@ -717,10 +723,11 @@ text-align: center;
 }
 
 .work-card-jeff {
-  background-color: #3D5A80;
-  color: #FFFFFF;
+  background-color: #1985a1;
+  color: #dcdcdd;
   font-family: manropeExtraBold;
-  font-size: 30px;
+  font-size: 160px;
+  text-shadow: 2px 2px 5px #46494c;
 }
 .work-card-luca {
   background-color: #A8DADC;
