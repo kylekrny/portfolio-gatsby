@@ -9,38 +9,27 @@ export default class WorkCard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showInfo: false,
-
+     activeOption: null
     };
     this.handleEnter = this.handleEnter.bind(this);
     this.handleExit = this.handleExit.bind(this);
   }
 
-  handleEnter = () => {
-    this.setState( ({
-      showInfo: true,
-    }));
+  handleEnter = (activeOption) => {
+    this.setState({ activeOption });
+    console.log(activeOption.Title)
   }
 
   handleExit = () => {
     this.setState( ({
-      showInfo: false,
+      activeOption: null
     }));
   }
 
+    showInfo = (id) => {
+        console.log(id)
+    }
 
-  renderWorkInfo = (data) => {
-      const liveButton = <a className='work-card-link' href={data.URL} rel="noopener noreferrer" target='_blank'>View Project</a>
-      const noLiveButton = <a className='work-card-link-inactive' href="#">Coming Soon</a>
-
-    return (
-      <div className='work-card-info-container' key={data.Title}>
-        <h3 className='work-card-subtitle'>{data.Subtitle}</h3>
-        <h3 className='work-card-date'>{data.Completion}</h3>
-        {data.Live ? liveButton : noLiveButton}
-      </div>
-    )
-  }
 
   renderLogo = (data) => {
     return (
@@ -50,26 +39,22 @@ export default class WorkCard extends Component {
     )
   }
 
-  renderImage = (data) => {
-    return(
-      <Image filename={data.Image.Filename}/>
-    )
-  }
-
 
   render() {
-
+    const { activeOption } = this.state;
+    const workData = JSONData.MyWorkContent
 
 
 
     return (
       <div className='work-card-container'>
-          {JSONData.MyWorkContent.map((data, index) => {
+          {workData.map((data, index) => {
       return (
-        <div className={`${data.Class} work-card`} key={index} onMouseEnter={this.handleEnter} onMouseLeave={this.handleExit}>
-            {this.state.showInfo ? this.renderWorkInfo(data) : this.renderLogo(data)}
-
-        </div>
+        <a key={index} href={data.URL} target='_blank' rel='noopener norefferer'>
+          <div className={`${data.Class} work-card`} key={data.Class} onMouseEnter={() => this.handleEnter(data)} onMouseLeave={this.handleExit}>
+              {this.renderLogo(data)} 
+          </div>
+        </a>
       )})}
 
       </div>
