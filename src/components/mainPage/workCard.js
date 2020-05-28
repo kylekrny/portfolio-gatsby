@@ -50,11 +50,13 @@ export default class WorkCard extends Component {
       <div className='work-card-container'>
           {workData.map((data, index) => {
       return (
+        <Fade delay={300 * index}>
         <a key={index} href={data.URL} target='_blank' rel='noopener norefferer'>
           <div className={`${data.Class} work-card`} key={data.Class} onMouseEnter={() => this.handleEnter(data)} onMouseLeave={this.handleExit}>
               {this.renderLogo(data)} 
           </div>
         </a>
+        </Fade>
       )})}
 
       </div>
