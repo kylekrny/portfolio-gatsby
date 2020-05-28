@@ -61,7 +61,7 @@ export default class ColorChange extends Component {
 
     return (
 
-    <div className='color-switch-container-closed'>
+    <div className='color-switch-container'>
       {this.state.lightMode ? lightMode : darkMode}
     </div>
 

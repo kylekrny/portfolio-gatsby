@@ -26,10 +26,6 @@ export default class WorkCard extends Component {
     }));
   }
 
-    showInfo = (id) => {
-        console.log(id)
-    }
-
 
   renderLogo = (data) => {
     return (

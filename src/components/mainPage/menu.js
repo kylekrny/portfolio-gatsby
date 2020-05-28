@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { Link } from "react-scroll";
 import Fade from 'react-reveal/Fade'
-
+import ColorChange from './colorChange'
 class Menu extends Component {
 
   constructor(props) {
@@ -33,18 +33,19 @@ class Menu extends Component {
           <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
           <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
           <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
-          <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
+          {/* <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link> */}
           
           {/* <div id='mode-button-container'>
           <button id='mode-button'>Dark Mode</button>
           </div> */}
         <div className='social-row'>
-        <a href="Mailto:hello@kyleswork.com"><FontAwesomeIcon icon={["far", "envelope"]} className='social-icon' style={{color:"#000000"}} /></a>
-        <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/dev.kyle/"><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon' style={{color:"#000000"}} /></a>
-        <a target="_blank" rel='noopener noreferrer' href="https://github.com/kyledkearney"><FontAwesomeIcon icon={["fab", "github"]} className='social-icon' style={{color:"#000000"}} /></a>
+        <a href="Mailto:hello@kyleswork.com"><FontAwesomeIcon icon={["far", "envelope"]} className='social-icon'/></a>
+        <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/dev.kyle/"><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon'/></a>
+        <a target="_blank" rel='noopener noreferrer' href="https://github.com/kyledkearney"><FontAwesomeIcon icon={["fab", "github"]} className='social-icon'/></a>
         {/* <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a> */}
         </div>
         </nav>
+        <ColorChange/>
         <div id='menu-footer'>
           <p id="menu-footer-brand">Kyle Kearney</p>
       </div>
@@ -64,17 +65,17 @@ class Menu extends Component {
         <Fade duration={3000} top opposite>
         <p className='header-text desktop' id='header-brand'>Front End Web Developer</p>
         </Fade>
-        {/* {this.state.showHeader ? header : ''} */}
-        <div className="header-nav">
+        {this.state.showHeader ? header : ''}
+        {/* <div className="header-nav">
           <Link to="about" className='header-nav-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
           <Link to="work" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
           <Link to="skills" className='header-nav-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
           <Link to="contact" className='header-nav-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link>
+        </div> */}
         </div>
-        </div>
-        {/* <Fade top exit opposite when={this.state.showMenu}>
+        <Fade top exit opposite when={this.state.showMenu}>
         {this.state.showMenu ? menu : ''}
-        </Fade> */}
+        </Fade>
       </div>
 
        
