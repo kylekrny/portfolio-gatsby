@@ -7,11 +7,9 @@ export default class ColorChange extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      showColors: false,
       lightMode : false,
     };
     this.handleClick = this.handleClick.bind(this);
-    this.handleDarkClick = this.handleDarkClick.bind(this);
   }
 
   
