@@ -12,7 +12,6 @@ export default class ColorChange extends Component {
       lightMode : true,
     };
     this.handleClick = this.handleClick.bind(this);
-    this.toggleMode = this.toggleMode.bind(this)
   }
 
 
