@@ -5,7 +5,7 @@
 <p align="center">
 My personal portfolio built using Gatsby.js. You can view the live version at https://kyleswork.com
 </p>
-<h6>Bugs TO fix</h6>
+<h4>Bugs to fix:</h4>
 <ul>
   <li><p>Color Change when you Close menu</p></li>
   <li><p>Menu Closes when you change color</p></li>
