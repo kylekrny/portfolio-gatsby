@@ -76,7 +76,7 @@
       "Live": false,
       "Subtitle": "Ecommerce - Full Stack",
       "Completion": "June 2020",
-      "URL": "https://jonesbodywork.com",
+      "URL": "https://ohlesport.com",
       "Description": "Photography studio, looking to showcase landscape and portrait photography.",
       "Image": {
         "Filename": "work-05.png"
@@ -94,7 +94,7 @@
       "Live": false,
       "Subtitle": "Game - Full Stack",
       "Completion": "June 2020",
-      "URL": "https://jonesbodywork.com",
+      "URL": "https://github.com/kyledkearney/double-down",
       "Description": "Photography studio, looking to showcase landscape and portrait photography.",
       "Image": {
         "Filename": "work-06.png"
@@ -125,11 +125,6 @@
       {
         "Type": "Front End",
         "Children": [
-          {
-            "Title": "Javascript",
-            "LogoUrl": "skills_js.png",
-            "LogoAlt": "Javascript Logo"
-          },
           {
             "Title": "React",
             "LogoUrl": "skills_react.png",

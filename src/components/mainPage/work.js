@@ -21,14 +21,11 @@ class Work extends Component {
           </Slide>
         </h5>
         <WorkCard/>
-        {/* <div className="work-footer">
-          <h6 className='work-footer-text'>View more of my work</h6>
-          <div className='social-row'>
-            <a href=""><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon' style={{color:"#000000"}} /></a>
-            <a href=""><FontAwesomeIcon icon={["fab", "github"]} className='social-icon' style={{color:"#000000"}} /></a>
-            <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a>
-          </div>
-        </div> */}
+        <div className="work-footer">
+
+            <a className='work-footer-text' href="/may-2020-resume.pdf" target='blank' rel='noopener norefferer'>Resume</a>
+            <a className='work-footer-text' href="https://github.com/kyledkearney" target='blank' rel='noopener norefferer'>Github</a>
+        </div>
       </div>
     )
   }

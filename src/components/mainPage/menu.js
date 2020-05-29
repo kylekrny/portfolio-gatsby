@@ -28,24 +28,25 @@ class Menu extends Component {
         <div id='menu-header'>
         <p className='header-text'><button className='button-reset menu-button' onClick={this.handleClick}>Close</button></p>
         </div>
-
-        <nav id='menu-nav'>
-          <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
-          <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
-          <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
-          {/* <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link> */}
-          
-          {/* <div id='mode-button-container'>
-          <button id='mode-button'>Dark Mode</button>
-          </div> */}
-        <div className='social-row'>
-        <a href="Mailto:hello@kyleswork.com"><FontAwesomeIcon icon={["far", "envelope"]} className='social-icon'/></a>
-        <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/dev.kyle/"><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon'/></a>
-        <a target="_blank" rel='noopener noreferrer' href="https://github.com/kyledkearney"><FontAwesomeIcon icon={["fab", "github"]} className='social-icon'/></a>
-        {/* <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a> */}
+        <div className='menu-main'>
+          <nav id='menu-nav'>
+            <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
+            <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
+            <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
+            {/* <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link> */}
+            
+            {/* <div id='mode-button-container'>
+            <button id='mode-button'>Dark Mode</button>
+            </div> */}
+          <div className='social-row'>
+          <a href="Mailto:hello@kyleswork.com"><FontAwesomeIcon icon={["far", "envelope"]} className='social-icon'/></a>
+          <a target="_blank" rel='noopener noreferrer' href="https://www.instagram.com/dev.kyle/"><FontAwesomeIcon icon={["fab", "instagram"]} className='social-icon'/></a>
+          <a target="_blank" rel='noopener noreferrer' href="https://github.com/kyledkearney"><FontAwesomeIcon icon={["fab", "github"]} className='social-icon'/></a>
+          {/* <a href=""><FontAwesomeIcon icon={["fab", "behance"]} className='social-icon' style={{color:"#000000"}} /></a> */}
+          </div>
+          </nav>
+          <ColorChange/>
         </div>
-        </nav>
-        <ColorChange/>
         <div id='menu-footer'>
           <p id="menu-footer-brand">Kyle Kearney</p>
       </div>
