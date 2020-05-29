@@ -16,9 +16,6 @@ export default class ColorChange extends Component {
   }
 
 
-  toggleMode(id) {
-    
-  }
 
     handleClick(color) {
       this.setState(prevState => ({
@@ -27,20 +24,6 @@ export default class ColorChange extends Component {
 
       document.body.className = color
     }
-
-
-
-    renderColors = () => {
-      const classes = ['body-white', 'body-blue', 'body-black', 'body-red', 'body-turqoise', 'body-pink', 'body-green']
-      const circles = []
-
-      for (let i = 0; i < classes.length; i++) {
-        circles.push(<span className={'color-circle ' + classes[i]} id={classes[i]} onClick={() => this.changeColor(classes[i]) + this.toggleClass(classes[i])}></span>)
-      }
-
-      return circles
-    }
-
 
 
 

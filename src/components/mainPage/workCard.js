@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import JSONData from '../../data/content.json'
-import Image from '../image'
 import Fade from 'react-reveal/Fade';
 
 export default class WorkCard extends Component {
@@ -11,20 +10,9 @@ export default class WorkCard extends Component {
     this.state = {
      activeOption: null
     };
-    this.handleEnter = this.handleEnter.bind(this);
-    this.handleExit = this.handleExit.bind(this);
   }
 
-  handleEnter = (activeOption) => {
-    this.setState({ activeOption });
-    console.log(activeOption.Title)
-  }
 
-  handleExit = () => {
-    this.setState( ({
-      activeOption: null
-    }));
-  }
 
 
   renderLogo = (data) => {
@@ -37,7 +25,6 @@ export default class WorkCard extends Component {
 
 
   render() {
-    const { activeOption } = this.state;
     const workData = JSONData.MyWorkContent
 
 
@@ -46,9 +33,9 @@ export default class WorkCard extends Component {
       <div className='work-card-container'>
           {workData.map((data, index) => {
       return (
-        <Fade delay={300 * index}>
-        <a key={index} href={data.URL} target='_blank' rel='noopener norefferer'>
-          <div className={`${data.Class} work-card`} key={data.Class} id={data.Class} onMouseEnter={() => this.handleEnter(data)} onMouseLeave={this.handleExit}>
+        <Fade delay={300 * index} key={data.Class}>
+        <a key={index} href={data.URL} target='_blank' rel="noopener noreferrer">
+          <div className={`${data.Class} work-card`} key={data.Class} id={data.Class}>
               {this.renderLogo(data)} 
           </div>
         </a>
