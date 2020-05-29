@@ -368,8 +368,9 @@ h6 {
   backdrop-filter: blur(3px);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-.head-main-container {
+#head-main-container {
   position: fixed;
+  z-index: 4;
 }
 
 .header-text {
@@ -486,7 +487,7 @@ width: 100%;
 text-align: center;
 display: flex;
 justify-content: center;
-margin-bottom: 50px;
+margin-bottom: 0px;
 }
 
 .menu-item {
@@ -502,10 +503,18 @@ margin-bottom: 50px;
 -webkit-text-fill-color: transparent; */
 }
 
-#menu-nav{
+.menu-main {
   width: 60%;
-  margin: auto;
-  margin-top: 150px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#menu-nav{
+  width: 100%;
+  
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -846,12 +855,11 @@ justify-content: space-evenly;
 
 
 .work-footer {
-  width: 30%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-content: center;
   justify-content: space-evenly;
-  margin: 10px auto;
 }
 
 .work-footer-text {
@@ -1404,7 +1412,7 @@ justify-content: space-evenly;
 /* * Phone Medua Queries */
 
 @media only screen 
-  and (min-device-width: 375px) 
+  and (min-device-width: 376px) 
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 
@@ -1669,3 +1677,126 @@ justify-content: space-evenly;
     }
 
 }
+
+/* * TINY PHONES */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    html {
+      margin: 0px;
+    }
+
+    #gatsby-focus-wrapper {
+      margin: 0px;
+    }
+
+    #about-head {
+      font-size: 60px;
+      letter-spacing: 5px;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    #head-main-container {
+      width: 100%;
+    }
+
+    #header-container {
+      justify-content: center;
+      width: 100%;
+      height: 7.5%;
+      backdrop-filter: blur(4px);
+    }
+    
+    #landing-text-top {
+      font-size: 70px;
+      text-align: center;
+    }
+    #landing-text-bottom {
+      font-size: 70px;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+
+    #menu {
+      height: 100%;
+      width: 100%;
+      backdrop-filter: blur(30px);
+    }
+
+    #menu-footer {
+      display: none;
+    }
+
+    #menu-header {
+      margin-bottom: 0px;
+    }
+
+    #menu-nav {
+      margin-top: 0px;
+    }
+
+    
+    .work-card {
+      width: 270px;
+      height: 432px;
+      margin: 25px auto;
+
+    }
+
+    .work-card-barnhouse {
+      font-size: 35px;
+
+    }
+
+    .double-script {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #FCA311;
+      -webkit-text-fill-color: #14213D;
+      letter-spacing: 16px;
+      margin-right: -16px;
+    }
+
+    .skill-card {
+      height: 125px;
+      width: 100px;
+      margin: 10px;
+    }
+
+    .skill-card-title {
+      display: none;
+    }
+
+    .skill-display-container {
+      height: 100%;
+    }
+
+    .skill-filter-item{
+      margin-bottom: 12px;
+    }
+
+    .skill-logo-container {
+      height: 100px;
+      width: 100px;
+      margin: 10px auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 50%;
+    }
+
+    .work-card-double-down {
+      font-size: 50px;
+    }
+
+    .work-card-container {
+      width: 100%;
+      margin: 0 auto;
+      justify-content: center;
+      align-content: center;
+    }
+
+}
+  

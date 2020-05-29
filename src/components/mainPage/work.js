@@ -23,8 +23,8 @@ class Work extends Component {
         <WorkCard/>
         <div className="work-footer">
 
-            <a className='work-footer-text' href="/may-2020-resume.pdf" target='blank' rel='noopener norefferer'>Resume</a>
-            <a className='work-footer-text' href="https://github.com/kyledkearney" target='blank' rel='noopener norefferer'>Github</a>
+            <p><a className='work-footer-text' href="/may-2020-resume.pdf" target='blank' rel='noopener norefferer'>Resume</a> /  <a className='work-footer-text' href="https://github.com/kyledkearney" target='blank' rel='noopener norefferer'>Github</a></p>
+            
         </div>
       </div>
     )
