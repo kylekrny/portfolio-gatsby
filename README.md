@@ -7,7 +7,11 @@ My personal portfolio built using Gatsby.js. You can view the live version at ht
 </p>
 <h4>Bugs to fix:</h4>
 <ul>
-  <li><p>Color change button resets when you close menu</p></li>
   <li><p>on click of color change button closes menu</p></li>
   <li><p>Display project information on hover</p></li>
+</ul>
+
+<h4>Fixed Bugs:</h4>
+<ul>
+  <li><p>Color change button resets when you close menu</p></li>
 </ul>
