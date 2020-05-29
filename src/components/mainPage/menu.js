@@ -30,9 +30,10 @@ class Menu extends Component {
         </div>
         <div className='menu-main'>
           <nav id='menu-nav'>
-            <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {800} onClick={this.handleClick}>About</Link>
-            <Link to="about" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Work</Link>
-            <Link to="experience" className='menu-item' spy={true} smooth={true} offset={-70} duration= {800} onClick={this.handleClick}>Skills</Link>
+            <Link to="landing" className='menu-item' spy={true} smooth={true} offset={-200} duration= {1400} onClick={this.handleClick}>Home</Link>
+            <Link to="about" className='menu-item' spy={true} smooth={true} offset={-50} duration= {1400} onClick={this.handleClick}>About</Link>
+            <Link to="work" className='menu-item' spy={true} smooth={true} offset={-70} duration= {1400} onClick={this.handleClick}>Work</Link>
+            <Link to="skills" className='menu-item' spy={true} smooth={true} offset={-20} duration= {1400} onClick={this.handleClick}>Skills</Link>
             {/* <Link to="work" className='menu-item' spy={true} smooth={true} offset={-90} duration= {800} onClick={this.handleClick}>Contact</Link> */}
             
             {/* <div id='mode-button-container'>
@@ -64,7 +65,7 @@ class Menu extends Component {
       <div id='head-main-container'>
         <div id='header-container'>
         <Fade duration={3000} top opposite>
-        <p className='header-text desktop' id='header-brand'>Front End Web Developer</p>
+          <p className='header-text desktop' id='header-brand'>Front End Web Developer</p>
         </Fade>
         {this.state.showHeader ? header : ''}
         {/* <div className="header-nav">
