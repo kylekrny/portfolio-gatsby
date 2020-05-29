@@ -8,20 +8,22 @@ export default class ColorChange extends Component {
     super(props);
     this.state = {
       showColors: false,
-      showButton: true,
-      lightMode : true,
+      lightMode : false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleDarkClick = this.handleDarkClick.bind(this);
   }
 
+  
 
-
-    handleClick(color) {
+    handleClick() {
       this.setState(prevState => ({
         lightMode: !prevState.lightMode,
+        
       }));
 
-      document.body.className = color
+      document.body.className = this.state.lightMode ? 'body-white' : 'body-black'
+      
     }
 
 
@@ -31,12 +33,12 @@ export default class ColorChange extends Component {
 
     
       const darkMode = (
-        <button className='color-button' onClick={() => this.handleClick('body-white')}>Dark Mode</button>
+        <button className='color-button' onClick={this.handleClick}>Dark Mode</button>
       )
     
 
     const lightMode = (
-        <button className='color-button' onClick={() => this.handleClick('body-black')}>Light Mode</button>
+        <button className='color-button' onClick={this.handleClick}>Light Mode</button>
       )
     
     
