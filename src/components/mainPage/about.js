@@ -23,7 +23,7 @@ class About extends Component {
           </Fade>
           <div id="about-text-container">
             <Fade right>
-            <p className="about-paragraph" id='about1'>I am a Certified Front End Web Developer from Denver, Colorado. My certificate is from the University of Denver. I am currently working on my B.S in Computer Science & Engineering through an online program. I enjoy fast paced work environments, with challenging projects. I am a critical thinker, and love to work through difficult problems.</p>
+            <p className="about-paragraph" id='about1'>I am a Certified Front End Web Developer, from Denver, Colorado. My certificate is from the University of Denver. I am working towards my B.S in Computer Science & Engineering through an online program. I enjoy fast paced work environments, with challenging projects. I am a critical thinker, and love to work through difficult problems.</p>
             <p className="about-paragraph">As a freelance web developer I help clients and agencies design and build engaging applications. When I have free time I work on my personal projects. Some of my projects include a blackjack game, a IOS budgeting app and a library for Javascript / CSS.</p>
             <p className="about-paragraph">When I am not developing I am out cycling, traveling, and learning new skills. Right now, I am practicing my Spencerian Penmanship, and learning Spanish.</p>
             </Fade>
